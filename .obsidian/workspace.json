@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "483d81326693a164",
+            "id": "bdb2ed5c51aa5b85",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -26,30 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95dae15d04ebcf72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c39e6a4d53c84f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,11 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "483d81326693a164",
+  "active": "bdb2ed5c51aa5b85",
   "lastOpenFiles": [
+    "I. Assessment Methodologies/Untitled.md",
+    "I. Assessment Methodologies/1. Information Gathering.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
-    "I. Assessment Methodologies/3. Enumeration.md",
-    "I. Assessment Methodologies/1. Information Gathering.md"
+    "I. Assessment Methodologies/3. Enumeration.md"
   ]
 }
