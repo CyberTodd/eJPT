@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md",
+                "file": "I. Assessment Methodologies/1. Information Gathering.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md",
+                "file": "I. Assessment Methodologies/1. Information Gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md",
+                "file": "I. Assessment Methodologies/1. Information Gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I. Assessment Methodologies/2. Footprinting & Scanning.md"
+                "file": "I. Assessment Methodologies/1. Information Gathering.md"
               }
             }
           }
@@ -160,10 +160,10 @@
   },
   "active": "bdb2ed5c51aa5b85",
   "lastOpenFiles": [
+    "I. Assessment Methodologies/2. Footprinting & Scanning.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
     "I. Assessment Methodologies/Untitled.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
-    "I. Assessment Methodologies/2. Footprinting & Scanning.md",
     "I. Assessment Methodologies/3. Enumeration.md"
   ]
 }
