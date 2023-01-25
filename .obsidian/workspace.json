@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Directory Structure/Directories.md",
+                "file": "Linux Directory Structure/Directory Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c79477a3900cd97c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Directory Structure/File Hierarchy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Directory Structure/Directories.md",
+                "file": "Linux Directory Structure/File Hierarchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Directory Structure/Directories.md",
+                "file": "Linux Directory Structure/File Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Directory Structure/Directories.md"
+                "file": "Linux Directory Structure/File Hierarchy.md"
               }
             }
           }
@@ -159,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7735c780f138552",
+  "active": "c79477a3900cd97c",
   "lastOpenFiles": [
+    "Linux Directory Structure/Directory Structure.md",
     "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
