@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7735c780f138552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Directory Structure/Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I. Assessment Methodologies/3. Enumeration.md",
+                "file": "Linux Directory Structure/Directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I. Assessment Methodologies/3. Enumeration.md",
+                "file": "Linux Directory Structure/Directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I. Assessment Methodologies/3. Enumeration.md"
+                "file": "Linux Directory Structure/Directories.md"
               }
             }
           }
@@ -146,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "554f9422de241f10",
+  "active": "e7735c780f138552",
   "lastOpenFiles": [
+    "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
-    "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/Untitled.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md"
   ]
