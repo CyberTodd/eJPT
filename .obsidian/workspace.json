@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md"
+                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md"
               }
             }
           }
@@ -183,12 +182,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5df58673adbbce2f",
+  "active": "554f9422de241f10",
   "lastOpenFiles": [
+    "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+    "I. Assessment Methodologies/5. Extra Information.md",
     "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
-    "I. Assessment Methodologies/5. Extra Information.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
     "Linux Directory Structure and File Hierarchy/File Hierarchy.md",
     "Linux Directory Structure and File Hierarchy/Directory Structure.md"
