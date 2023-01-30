@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "2db22f59896d7ff8",
+            "id": "3bc22426a1efacf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. Assessment Methodologies/3. Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5df58673adbbce2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34f687655806a810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I. Assessment Methodologies/5. Extra Information.md",
+                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,8 +161,8 @@
   "active": "554f9422de241f10",
   "lastOpenFiles": [
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
-    "I. Assessment Methodologies/3. Enumeration.md",
     "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+    "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/5. Extra Information.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
