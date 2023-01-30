@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "554f9422de241f10",
+            "id": "1d7962843ede84bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3bc22426a1efacf1",
+            "id": "2b14017a9c232f61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Windows Vulnerabilities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30e66664e2b9cd92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Windows Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md"
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Introduction.md"
               }
             }
           }
@@ -158,15 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "554f9422de241f10",
+  "active": "1d7962843ede84bb",
   "lastOpenFiles": [
-    "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Windows Vulnerabilities.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Introduction.md",
     "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+    "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/5. Extra Information.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
-    "Linux Directory Structure and File Hierarchy/File Hierarchy.md",
-    "Linux Directory Structure and File Hierarchy/Directory Structure.md"
+    "Linux Directory Structure and File Hierarchy/File Hierarchy.md"
   ]
 }
