@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I. Assessment Methodologies/4. Vulnerability Assessment.md"
+                "file": "II. Host & Networking Auditing/1. Auditing Fundamentals.md"
               }
             }
           }
@@ -184,8 +184,8 @@
   },
   "active": "554f9422de241f10",
   "lastOpenFiles": [
-    "I. Assessment Methodologies/3. Enumeration.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
+    "I. Assessment Methodologies/3. Enumeration.md",
     "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
     "I. Assessment Methodologies/5. Extra Information.md",
     "I. Assessment Methodologies/2. Footprinting & Scanning.md",
