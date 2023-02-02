@@ -2,7 +2,7 @@ The base of the Linux/Unix file system hierarchy begins at the root and everythi
 
 ### **These are the common top-level directories associated with the root directory:**
 
--    **/bin** – binary or executable programs.
+-   **/bin** – binary or executable programs.
 -   **/etc** – system configuration files.
 -   **/home** – home directory. It is the default current directory.
 -   **/opt** – optional or third-party software.
