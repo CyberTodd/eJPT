@@ -1,8 +1,8 @@
 
 # Passive 
-- DNS lookup
+- DNS lookup - IPv4, IPv6, mail server
 ```
-host [ip]
+host [domain] //without protocol and or path
 ```
 
 
