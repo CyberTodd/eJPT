@@ -9,7 +9,7 @@ host [domain] //without protocol and/or path
 
 - SE indexing 
 ```
-url/robots.txt // 
+url/robots.txt // Allows files/ directories you want or don't want for SE to index
 
 url/sitemap.xml
 
