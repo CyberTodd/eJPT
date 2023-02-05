@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "I. Assessment Methodologies/5. Extra Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "I. Assessment Methodologies/5. Extra Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "I. Assessment Methodologies/5. Extra Information.md"
+              }
             }
           }
         ]
@@ -144,15 +148,15 @@
   },
   "active": "8d312bb39839bdaf",
   "lastOpenFiles": [
+    "II. Host & Networking Auditing/1. Auditing Fundamentals.md",
+    "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "I. Assessment Methodologies/5. Extra Information.md",
     "Cheat Sheet/Information Gathering.md",
     "I. Assessment Methodologies/1. Information Gathering.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
     "Linux Directory Structure and File Hierarchy/Directory Structure.md",
-    "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "I. Assessment Methodologies/3. Enumeration.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10..md",
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/9..md"
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10..md"
   ]
 }
