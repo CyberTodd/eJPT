@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md"
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "5e1534ac5b9c8c9b",
   "lastOpenFiles": [
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/2. Windows Vulnerabilities.md",
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/3. Exploiting Windows Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/1. Introduction To System - Host Based Attacks.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "I. Assessment Methodologies/5. Extra Information.md",
