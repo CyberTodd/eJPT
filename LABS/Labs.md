@@ -56,16 +56,30 @@ auxiliary(scanner/mysql/mysql_hashdump)
 19.  Check whether anonymous login is allowed on MySQL Server.
 ```
 mysql -h 192.82.22.3
+
+nmap [ip] -p 3306 --script=mysql-empty-password
 ```
 
 21.  Check whether “InteractiveClient” capability is supported on the MySQL server.
 ```
-
+nmap 192.12.132.3 -p 3306 --script=mysql-info
 ```
 
 23.  Enumerate the users present on MySQL database server using mysql-users nmap script.
-24.  List all databases stored on the MySQL Server using nmap script.
-25.  Find the data directory used by mysql server using nmap script.
-26.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
-27.  Dump all user hashes using  nmap script.
-28.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
+```
+nmap 192.12.132.3 -p 3306 --script=mysql-users --script-args="mysqluser=root,mysqlpass=''"
+```
+
+25.  List all databases stored on the MySQL Server using nmap script.
+```
+nmap 192.12.132.3 -p 3306 --script=mysql-databases --script-args="mysqluser=root,mysqlpass=''"
+```
+
+27.  Find the data directory used by mysql server using nmap script.
+```
+
+```
+
+29.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
+30.  Dump all user hashes using  nmap script.
+31.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
