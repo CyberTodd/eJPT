@@ -77,9 +77,15 @@ nmap 192.12.132.3 -p 3306 --script=mysql-databases --script-args="mysqluser=root
 
 27.  Find the data directory used by mysql server using nmap script.
 ```
-
+nmap 192.12.132.3 -p 3306 --script=mysql-variables --script-args="mysqluser=root,mysqlpass=''"
 ```
 
 29.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
-30.  Dump all user hashes using  nmap script.
-31.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
+```
+nmap 192.12.132.3 -p 3306 --script=mysql-audit --script-args="mysql-audit.username=root,mysql-audit.password='',mysql-audit.filename='/usr/share/nmap/nselib/data/mysql-cis.audit'"
+```
+31.  Dump all user hashes using  nmap script.
+```
+
+```
+33.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
