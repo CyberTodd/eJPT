@@ -3,11 +3,13 @@ MySQL Recon: Basics
 
 1.  What is the version of MySQL server?
 ```Terminal
-nmap 192.82.22.3 -sV -sC
+nmap [ip] -sV -sC
 ```
 - MySQL 5.5.62-0ubuntu0.14.04.1
 3.  What command is used to connect to remote MySQL database?
-
+```Terminal
+mysql -u [username] -p -h [ip]
+```
 5.  How many databases are present on the database server?
 6.  How many records are present in table “authors”? This table is present inside the “books” database.
 7.  Dump the schema of all databases from the server using suitable metasploit module?
