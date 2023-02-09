@@ -26,18 +26,25 @@ select * from authors;
 
 9.  Dump the schema of all databases from the server using suitable metasploit module?
 ```
-auxiliary(scanner/mysql/mysql_schemadump)
+auxiliary(scanner/mysql/mysql_schemadump) // also provides a .txt file with it;
 ```
 
 11.  How many directories present in the /usr/share/metasploit-framework/data/wordlists/directory.txt, are writable? List the names.
-12.  How many of sensitive files present in /usr/share/metasploit-framework/data/wordlists/sensitive_files.txt are readable? List the names.
-13.  Find the system password hash for user "root".
-14.  How many database users are present on the database server? Lists their names and password hashes.
-15.  Check whether anonymous login is allowed on MySQL Server.
-16.  Check whether “InteractiveClient” capability is supported on the MySQL server.
-17.  Enumerate the users present on MySQL database server using mysql-users nmap script.
-18.  List all databases stored on the MySQL Server using nmap script.
-19.  Find the data directory used by mysql server using nmap script.
-20.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
-21.  Dump all user hashes using  nmap script.
-22.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
+```
+auxiliary(scanner/mysql/mysql_writable_dirs)
+
+```
+
+13.  How many of sensitive files present in /usr/share/metasploit-framework/data/wordlists/sensitive_files.txt are readable? List the names.
+
+
+15.  Find the system password hash for user "root".
+16.  How many database users are present on the database server? Lists their names and password hashes.
+17.  Check whether anonymous login is allowed on MySQL Server.
+18.  Check whether “InteractiveClient” capability is supported on the MySQL server.
+19.  Enumerate the users present on MySQL database server using mysql-users nmap script.
+20.  List all databases stored on the MySQL Server using nmap script.
+21.  Find the data directory used by mysql server using nmap script.
+22.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
+23.  Dump all user hashes using  nmap script.
+24.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
