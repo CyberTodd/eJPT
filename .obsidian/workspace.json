@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LABS/Untitled.md",
+                "file": "LABS/Labs.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "LABS/Labs.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "LABS/Labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "LABS/Labs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "LABS/Labs.md"
               }
             }
           }
@@ -171,9 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d312bb39839bdaf",
+  "active": "fe85f03fa64c8f54",
   "lastOpenFiles": [
-    "LABS/Untitled.md",
+    "LABS/Untitled 1.md",
+    "LABS/Labs.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md",
     "MacOS Directory Structure/MacOS Directory Structure.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/4. Windows Privilege Escalation.md",
@@ -181,7 +182,6 @@
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/2. Windows Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/1. Introduction To System - Host Based Attacks.md",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
-    "I. Assessment Methodologies/5. Extra Information.md",
-    "II. Host & Networking Auditing/1. Auditing Fundamentals.md"
+    "I. Assessment Methodologies/5. Extra Information.md"
   ]
 }
