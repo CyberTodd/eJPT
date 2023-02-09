@@ -42,12 +42,24 @@ auxiliary(scanner/mysql/mysql_file_enum)
 ```
 
 15.  Find the system password hash for user "root".
-16.  How many database users are present on the database server? Lists their names and password hashes.
-17.  Check whether anonymous login is allowed on MySQL Server.
-18.  Check whether “InteractiveClient” capability is supported on the MySQL server.
-19.  Enumerate the users present on MySQL database server using mysql-users nmap script.
-20.  List all databases stored on the MySQL Server using nmap script.
-21.  Find the data directory used by mysql server using nmap script.
-22.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
-23.  Dump all user hashes using  nmap script.
-24.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
+```
+
+```
+
+17.  How many database users are present on the database server? Lists their names and password hashes.
+```
+auxiliary(scanner/mysql/mysql_hashdump)
+```
+
+19.  Check whether anonymous login is allowed on MySQL Server.
+```
+mysql -h 192.82.22.3
+```
+
+21.  Check whether “InteractiveClient” capability is supported on the MySQL server.
+22.  Enumerate the users present on MySQL database server using mysql-users nmap script.
+23.  List all databases stored on the MySQL Server using nmap script.
+24.  Find the data directory used by mysql server using nmap script.
+25.  Check whether File Privileges can be granted to non admin users using mysql_audi nmap script.
+26.  Dump all user hashes using  nmap script.
+27.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
