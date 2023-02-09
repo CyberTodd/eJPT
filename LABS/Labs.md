@@ -36,7 +36,10 @@ auxiliary(scanner/mysql/mysql_writable_dirs)
 ```
 
 13.  How many of sensitive files present in /usr/share/metasploit-framework/data/wordlists/sensitive_files.txt are readable? List the names.
+```
+auxiliary(scanner/mysql/mysql_file_enum)
 
+```
 
 15.  Find the system password hash for user "root".
 16.  How many database users are present on the database server? Lists their names and password hashes.
