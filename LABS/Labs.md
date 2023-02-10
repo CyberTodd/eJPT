@@ -353,20 +353,52 @@ nmap [ip] -p 22 --script ssh2-enum-algos
 
 9.  What is the ssh-rsa host key being used by the SSH server.
 ```
-nmap [ip] -p 22 --script ssh
+nmap [ip] -p 22 --script ssh-hostkey --script-args ssh_hostkey=full
 ```
 
 11.  Which authentication method is being used by the SSH server for user “student”.
 ```
+nmap [ip] -p 22 --script ssh-auth-methods --script-args="ssh.user=student"
 
+ssh student@[ip]
+whoami
 ```
 
 13.  Which authentication method is being used by the SSH server for user “admin”.
+```
+nmap [ip] -p 22 --script ssh-auth-methods --script-args="ssh.user=admin"
+```
+---
+# SSH Recon: Dictionary Attack
+
+1.  Find the password of user “student” using hydra.
+```
+nmap [ip]
+
+nmap [ip] -p 22 -sV
+
+gzip -d /usr/share/wordlists/rockyou.txt.gz
+
+hydra -l student -P /usr/share/wordlists/rock
+```
+
+3.  Find the password of user “administrator” use appropriate Nmap scripts with password dictionary: /usr/share/nmap/nselib/data/passwords.lst
+```
 
 
-15.  Fetch the flag from /home/student/FLAG by using nmap ssh-run script.
 
+nmap [ip] -p 22 --script s
+```
 
+5.  Find the password of user “root” using ssh_login Metasploit module with userpass dictionary: /usr/share/wordlists/metasploit/root_userpass.txt
+```
+
+```
+
+7.  What is the message of the day? (Printed after the user logs in to the SSH server).
+```
+
+```
 
 ---
 # MySQL Recon: Basics
