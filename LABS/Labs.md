@@ -149,22 +149,36 @@ nmap [ip] -p 445 --script smb-protocols
 
 9.  Is SMB2 protocol supported by the samba server? Use smb2 metasploit module.
 ```
-msfconsole - use auxiliary/scanner/smb/smb_
+msfconsole - use auxiliary/scanner/smb/smb2
 ```
 
 11.  List all users that exists on the samba server  using appropriate nmap script.
-
-
-13.  List all users that exists on the samba server  using smb_enumusers metasploit modules.
-
+```
+nmap [ip] -p 445 --script smb-enum-users
+```
 
 15.  List all users that exists on the samba server  using enum4Linux.
-
+```
+enum4linux -U [ip]
+```
 
 17.  List all users that exists on the samba server  using rpcclient.
+```
+rpcclient -U "" -N [ip]
 
+enumdomusers
+```
 
 19.  Find SID of user “admin” using rpcclient.
+```
+rpcclient 
+
+lookupnames admin
+```
+---
+# Samba Recon: Basic II
+
+
 
 ---
 # MySQL Recon: Basics
