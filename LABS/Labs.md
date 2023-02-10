@@ -322,6 +322,51 @@ ftp [ip]
 Name: anonymous
 Password: [ENTER]
 ```
+---
+# SSH Recon: Basic
+
+1.  What is the version of SSH server.
+```
+nmap [ip]
+
+nmap [ip] -p 22 -sV -O
+
+ssh root@[ip]
+continue -> yes
+enter the password: -you have 3 chances-
+```
+
+3.  Fetch the banner using netcat and check the version of SSH server.
+```
+netcat - nc [ip] 22
+```
+
+5.  Fetch pre-login SSH banner.
+```
+nmap [ip] -p 22 --script ssh2-enum-algos
+```
+
+7.  How many “encryption_algorithms” are supported by the SSH server.
+```
+nmap [ip] -p 22 --script ssh2-enum-algos
+```
+
+9.  What is the ssh-rsa host key being used by the SSH server.
+```
+nmap [ip] -p 22 --script ssh
+```
+
+11.  Which authentication method is being used by the SSH server for user “student”.
+```
+
+```
+
+13.  Which authentication method is being used by the SSH server for user “admin”.
+
+
+15.  Fetch the flag from /home/student/FLAG by using nmap ssh-run script.
+
+
 
 ---
 # MySQL Recon: Basics
