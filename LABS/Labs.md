@@ -1,7 +1,11 @@
 # Footprinting & Scanning - Lab 2
 1.  Identify the port running a Bind DNS server.
 ```
+nmap [ip] -p 1-250 
+nmap [ip] -p 177 -A
 
+nmap [ip] -p 1-250 -sU
+nmap [ip] -p 134,177,234 -sUVA
 ```
 
 3.  Identify the port running a TFTP server.
