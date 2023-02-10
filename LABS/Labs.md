@@ -94,22 +94,33 @@ nmap [ip] -p 445 --script smb-os-discovery
 
 9.  Find the exact version of samba server by using smb_version metasploit module.
 ```
-msfconsole - use auxiliary
+msfconsole - use auxiliary/scanner/smb/smb_version
 ```
 
 11.  What is the NetBIOS computer name of samba server? Use appropriate nmap scripts.
-
+```
+nmap [ip] -p 445 --script smb-os-discovery
+```
 
 13.  Find the NetBIOS computer name of samba server using nmblookup
+```
+nmblookup -A [ip] - connect to the <20>SAMBA
 
+```
 
 15.  Using smbclient determine whether anonymous connection (null session)  is allowed on the samba server or not.
-
+```
+smbclient -L [ip] -N - when you see ICP$ with a null session maybe you can connect to it
+```
 
 17.  Using rpcclient determine whether anonymous connection (null session) is allowed on the samba server or not.
-
+```
+rpcclient -U "" -N "" [ip] - and check if you can connect
+```
 
 ---
+# 
+
 
 # MySQL Recon: Basics
 
