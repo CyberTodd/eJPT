@@ -176,8 +176,54 @@ rpcclient
 lookupnames admin
 ```
 ---
-# Samba Recon: Basic II
+# Samba Recon: Basic III
 
+1.  List all available shares on the samba server using Nmap script.
+```
+nmap [ip] -p 445 --script smb-enum-shares
+```
+
+3.  List all available shares on the samba server using smb_enumshares Metasploit module.
+```
+msfconsole - use auxiliary/scanner/smb/smb_enumshares
+```
+
+4.  List all available shares on the samba server using enum4Linux.
+```
+enum4Linux -S [ip]
+```
+
+5.  List all available shares on the samba server using smbclient.
+```
+smbclient -L [ip] -N
+```
+
+6.  Find domain groups that exist on the samba server by using enum4Linux.
+```
+enum4linux -G [ip]
+```
+
+7.  Find domain groups that exist on the samba server by using rpcclient.
+```
+rpcclient -U "" -N [ip]
+
+enumdomgroups
+```
+
+8.  Is samba server configured for printing?
+```
+enum4linux -i [ip]
+```
+
+9.  How many directories are present inside share “public”?
+```
+
+```
+
+10.  Fetch the flag from samba server.
+```
+
+```
 
 
 ---
