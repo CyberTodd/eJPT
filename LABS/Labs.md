@@ -79,7 +79,7 @@ nmap [ip] -p 139,445 -sCV
 
 3.  Find the default udp ports used by nmbd.
 ```
-
+nmap [ip] --top-ports 250 -sU --open
 ```
 
 5.  What is the workgroup name of samba server?
