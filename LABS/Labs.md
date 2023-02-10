@@ -46,6 +46,14 @@ nmap [ip] -p 445 --script smb-enum-shares --script-args smbusername=administrato
 
 // users
 nmap [ip] -p 445 --script smb-enum-users --script-args smbusername=administrator,smbpassword=smbserver_771
+
+// server stats
+nmap [ip] -p 445 --script smb-server-stats --script-args smbusername=administrator,smbpassword=smbserver_771
+
+// domains
+nmap [ip] -p 445 --script smb-enum-domains --script-args smbusername=administrator,smbpassword=smbserver_771
+
+
 ```
 
 The following username and password may be used to access the service:
