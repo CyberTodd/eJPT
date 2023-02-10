@@ -3,20 +3,26 @@
 ```
 nmap [ip] -p 1-250 
 nmap [ip] -p 177 -A
-
 nmap [ip] -p 1-250 -sU
-nmap [ip] -p 134,177,234 -sUVA
+
 ```
 
 3.  Identify the port running a TFTP server.
 ```
+nmap [ip] -p 134 -sUV --script=discovery 
 
+tftp [ip] 134
+
+status
 ```
 
 5.  Identify the port running the SNMP server.
 ```
-
+nmap [ip] -p 134,177,234 -sUV
 ```
+---
+# Windows Recon: SMB Nmap Scripts
+
 
 ---
 
