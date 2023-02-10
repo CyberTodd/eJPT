@@ -409,19 +409,72 @@ nmap [ip] -p 80 -sV
 
 3.  Get webserver header details
 ```
+nmap [ip] -p 80 --script http-enum - extra for interesting directories
 
+nmap [ip] -p 80 --script http-headers
 ```
 
 4.  Enumerated HTTP methods
 ```
-
+nmap [ip] -p 80 --script http-methods --script-args http-methods.url-path=/webdav/
 ```
 
 5.  Detect WebDAV configuration - etc.
 ```
-
+nmap [ip] -p 80 --script http-webdav-scan --script-args http-methods.url-path=/webdav/
 ```
 ---
+# Apache Recon: Basics
+
+1.  Which web server software is running on the target server and also find out the version using nmap.
+```
+nmap [ip]
+
+nmap [ip] -p 80 -sV 
+
+nmap [ip] -p 80 -sV --script banner
+```
+
+3.  Which web server software is running on the target server and also find out the version using suitable metasploit module.
+```
+msfconsole - use auxiliary/scanner/http/http_version
+```
+
+5.  Check what web app is hosted on the web server using curl command.
+```
+
+```
+
+7.  Check what web app is hosted on the web server using wget command.
+```
+
+```
+
+9.  Check what web app is hosted on the web server using browsh CLI based browser.
+```
+
+```
+
+11.  Check what web app is hosted on the web server using lynx CLI based browser.
+```
+
+```
+
+13.  Perform bruteforce on webserver directories and list the names of directories found. Use brute_dirs metasploit module.
+```
+
+```
+
+15.  Use the directory buster (dirb) with tool/usr/share/metasploit-framework/data/wordlists/directory.txt dictionary to check if any directory is present in the root folder of the web server. List the names of found directories.
+```
+
+```
+
+17.  Which bot is specifically banned from accessing a specific directory?
+```
+
+```
+
 
 ---
 # MySQL Recon: Basics
