@@ -127,20 +127,30 @@ nmap [ip] -p- -T3
 
 nmap [ip] -p 139,445 -sV -T3
 
-rpcclient -U "" -N "" [i]
+rpcclient -U "" -N [ip]
+
+after connection - srvinfo
 ```
 
 3.  Find the OS version of samba server using enum4Linux.
-
+```
+enum4linux -o [ip]
+```
 
 5.  Find the server description of samba server using smbclient.
-
+```
+smbclient -L [ip] -N 
+```
 
 7.  Is NT LM 0.12 (SMBv1) dialects supported by the samba server? Use appropriate nmap script.
-
+```
+nmap [ip] -p 445 --script smb-protocols
+```
 
 9.  Is SMB2 protocol supported by the samba server? Use smb2 metasploit module.
-
+```
+msfconsole - use auxiliary/scanner/smb/smb_
+```
 
 11.  List all users that exists on the samba server  using appropriate nmap script.
 
