@@ -22,7 +22,17 @@ nmap [ip] -p 134,177,234 -sUV
 ```
 ---
 # Windows Recon: SMB Nmap Scripts
+1.  Identify SMB Protocol Dialects
+2.  Find SMB security level information
+3.  Enumerate active sessions, shares, Windows users, domains, services, etc.
 
+The following username and password may be used to access the service:
+
+| Username | Password | | administrator | smbserver_771 |
+
+```
+
+```
 
 ---
 
