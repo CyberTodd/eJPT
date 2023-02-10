@@ -71,7 +71,9 @@ nmap [ip] -p 445 --script smb-enum-shares,smb-ls --script-args smbusername=admin
 # Samba Recon: Basics
 
 1.  Find the default tcp ports used by smbd.
-
+```
+nmap [ip] -p- -F
+```
 
 3.  Find the default udp ports used by nmbd.
 
