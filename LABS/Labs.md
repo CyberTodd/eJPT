@@ -20,6 +20,7 @@ status
 ```
 nmap [ip] -p 134,177,234 -sUV
 ```
+
 ---
 # Windows Recon: SMB Nmap Scripts
 1.  Identify SMB Protocol Dialects
@@ -33,6 +34,15 @@ nmap [ip] -p 445 --script smb-security-mode
 ```
 
 5.  Enumerate active sessions, shares, Windows users, domains, services, etc.
+```
+// active sessions
+nmap [ip] -p 445 --script smb-enum-sessions
+
+nmap [ip] -p 445 --script smb-enum-sessions --script-args smbusername=administrator,smbpassword=smbserver_771
+
+// shares
+nmap [ip] -p 445 --script smb-enum-shares  
+```
 
 The following username and password may be used to access the service:
 
