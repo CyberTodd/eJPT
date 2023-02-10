@@ -442,37 +442,39 @@ msfconsole - use auxiliary/scanner/http/http_version
 
 5.  Check what web app is hosted on the web server using curl command.
 ```
-
+curl [ip] | more
 ```
 
 7.  Check what web app is hosted on the web server using wget command.
 ```
-
+wget "http://[ip]/index"
+ls
+cat index | more
 ```
 
 9.  Check what web app is hosted on the web server using browsh CLI based browser.
 ```
-
+browsh --startup-url [ip]
 ```
 
 11.  Check what web app is hosted on the web server using lynx CLI based browser.
 ```
-
+lynx http://[ip]
 ```
 
 13.  Perform bruteforce on webserver directories and list the names of directories found. Use brute_dirs metasploit module.
 ```
-
+msfconsole - use auxiliary/scanner/http/brute_dirs
 ```
 
 15.  Use the directory buster (dirb) with tool/usr/share/metasploit-framework/data/wordlists/directory.txt dictionary to check if any directory is present in the root folder of the web server. List the names of found directories.
 ```
-
+dirb http://[ip] /usr/share/metaspoloit-framework/data/wordlist/directory.txt
 ```
 
 17.  Which bot is specifically banned from accessing a specific directory?
 ```
-
+msfconsole - use auxiliary/scanner/http/robots_txt
 ```
 
 
