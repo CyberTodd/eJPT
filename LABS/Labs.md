@@ -79,17 +79,23 @@ nmap [ip] -p 139,445 -sCV
 
 3.  Find the default udp ports used by nmbd.
 ```
-nmap [ip] --top-ports 250 -sU --open
+nmap [ip] --top-ports 25 -sU --open
 ```
 
 5.  What is the workgroup name of samba server?
-
+```
+nmap [ip] --top-ports 25 -sUV --open
+```
 
 7.  Find the exact version of samba server by using appropriate nmap script.
-
+```
+nmap [ip] -p 445 --script smb-os-discovery
+```
 
 9.  Find the exact version of samba server by using smb_version metasploit module.
-
+```
+msfconsole - use auxiliary
+```
 
 11.  What is the NetBIOS computer name of samba server? Use appropriate nmap scripts.
 
