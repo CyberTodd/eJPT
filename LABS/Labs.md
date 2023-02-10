@@ -122,7 +122,9 @@ rpcclient -U "" -N "" [ip] - and check if you can connect
 # Samba Recon: Basics II
 
 1.  Find the OS version of samba server using rpcclient.
+```
 
+```
 
 3.  Find the OS version of samba server using enum4Linux.
 
