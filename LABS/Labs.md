@@ -236,7 +236,7 @@ msfconsole - use auxiliary/scanner/smb/smb_login
 
 3.  What is the password of user “admin” required to access share “admin”? Use hydra with password wordlist: /usr/share/wordlists/rockyou.txt
 ```
-hydra -l admin -P /path file/ [ip] smb<-(protocol)
+hydra -l admin -P /path file/ [ip] smb<-protocol
 ```
 
 4.  Which share is read only? Use smbmap with credentials obtained in question 2.
@@ -279,7 +279,35 @@ run
 ``` 
 enum4linux -r -u "admin" -p "password1" [ip] 
 ```
+---
+# ProFTP Recon: Basics
 
+1.  What is the version of FTP server?
+```
+nmap [ip]
+
+nmap [ip] -p 21 -sV -O
+
+ftp [ip]
+Name: try nothing
+Password: try nothing
+if failed - bye
+
+ftp again with proper user and password
+ls
+```
+
+3.  Use the username dictionary /usr/share/metasploit-framework/data/wordlists/common_users.txt and password dictionary /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt to check if any of these credentials work on the system. List all found credentials.
+```
+hydra -L /path -P /path [ip] ftp<-protocol
+```
+
+4.  Find the password of user “sysadmin” using nmap script.
+```
+
+```
+
+5.  Find seven flags hidden on the server.
 
 
 ---
