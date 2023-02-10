@@ -123,7 +123,11 @@ rpcclient -U "" -N "" [ip] - and check if you can connect
 
 1.  Find the OS version of samba server using rpcclient.
 ```
+nmap [ip] -p- -T3
 
+nmap [ip] -p 139,445 -sV -T3
+
+rpcclient -U "" -N "" [i]
 ```
 
 3.  Find the OS version of samba server using enum4Linux.
