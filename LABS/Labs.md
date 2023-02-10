@@ -119,9 +119,38 @@ rpcclient -U "" -N "" [ip] - and check if you can connect
 ```
 
 ---
-# 
+# Samba Recon: Basics II
+
+1.  Find the OS version of samba server using rpcclient.
 
 
+3.  Find the OS version of samba server using enum4Linux.
+
+
+5.  Find the server description of samba server using smbclient.
+
+
+7.  Is NT LM 0.12 (SMBv1) dialects supported by the samba server? Use appropriate nmap script.
+
+
+9.  Is SMB2 protocol supported by the samba server? Use smb2 metasploit module.
+
+
+11.  List all users that exists on the samba server  using appropriate nmap script.
+
+
+13.  List all users that exists on the samba server  using smb_enumusers metasploit modules.
+
+
+15.  List all users that exists on the samba server  using enum4Linux.
+
+
+17.  List all users that exists on the samba server  using rpcclient.
+
+
+19.  Find SID of user “admin” using rpcclient.
+
+---
 # MySQL Recon: Basics
 
 1.  What is the version of MySQL server?
