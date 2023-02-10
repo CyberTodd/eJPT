@@ -23,6 +23,11 @@ nmap [ip] -p 134,177,234 -sUV
 
 ---
 # Windows Recon: SMB Nmap Scripts
+
+The following username and password may be used to access the service:
+
+| Username | Password | | administrator | smbserver_771 |
+
 1.  Identify SMB Protocol Dialects
 ```
 nmap [ip] -p 445 --script smb-protocols
@@ -62,10 +67,34 @@ nmap [ip] -p 445 --script smb-enum-services --script-args smbusername=administra
 nmap [ip] -p 445 --script smb-enum-shares,smb-ls --script-args smbusername=administrator,smbpassword=smbserver_771
 ```
 
-The following username and password may be used to access the service:
+---
+# Samba Recon: Basics
 
-| Username | Password | | administrator | smbserver_771 |
+1.  Find the default tcp ports used by smbd.
 
+
+3.  Find the default udp ports used by nmbd.
+
+
+5.  What is the workgroup name of samba server?
+
+
+7.  Find the exact version of samba server by using appropriate nmap script.
+
+
+9.  Find the exact version of samba server by using smb_version metasploit module.
+
+
+11.  What is the NetBIOS computer name of samba server? Use appropriate nmap scripts.
+
+
+13.  Find the NetBIOS computer name of samba server using nmblookup
+
+
+15.  Using smbclient determine whether anonymous connection (null session)  is allowed on the samba server or not.
+
+
+17.  Using rpcclient determine whether anonymous connection (null session) is allowed on the samba server or not.
 
 
 ---
