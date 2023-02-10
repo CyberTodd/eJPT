@@ -1,5 +1,19 @@
+# Footprinting & Scanning - Lab 2
+1.  Identify the port running a Bind DNS server.
+```
 
-#
+```
+
+3.  Identify the port running a TFTP server.
+```
+
+```
+
+5.  Identify the port running the SNMP server.
+```
+
+```
+
 ---
 
 # MySQL Recon: Basics
