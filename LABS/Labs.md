@@ -72,11 +72,15 @@ nmap [ip] -p 445 --script smb-enum-shares,smb-ls --script-args smbusername=admin
 
 1.  Find the default tcp ports used by smbd.
 ```
-nmap [ip] -p- -F
+nmap [ip] -p- -T3
+
+nmap [ip] -p 139,445 -sCV
 ```
 
 3.  Find the default udp ports used by nmbd.
+```
 
+```
 
 5.  What is the workgroup name of samba server?
 
