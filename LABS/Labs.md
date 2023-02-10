@@ -294,7 +294,7 @@ Password: try nothing
 if failed - bye
 
 ftp again with proper user and password
-ls
+help to check the commands
 ```
 
 3.  Use the username dictionary /usr/share/metasploit-framework/data/wordlists/common_users.txt and password dictionary /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt to check if any of these credentials work on the system. List all found credentials.
@@ -304,11 +304,24 @@ hydra -L /path -P /path [ip] ftp<-protocol
 
 4.  Find the password of user “sysadmin” using nmap script.
 ```
-
+nmap [ip] -p 21 --script ftp-brute --script-args userdb=/root/users<- file created by us
+```
+---
+# VSFTPD Recon: Basics
+1.  Find the version of vsftpd server.
+```
+nmap [ip] 
+nmap [ip] -p 21 -sV
 ```
 
-5.  Find seven flags hidden on the server.
+3.  Check whether anonymous login is allowed on the ftp server using nmap script.
+```
+nmap [ip] -p 21 --script ftp-anon
 
+ftp [ip]
+Name: anonymous
+Password: [ENTER]
+```
 
 ---
 # MySQL Recon: Basics
