@@ -1,5 +1,8 @@
 
-MySQL Recon: Basics
+#
+---
+
+# MySQL Recon: Basics
 
 1.  What is the version of MySQL server?
 ```
@@ -89,5 +92,5 @@ nmap --script mysql-dump-hashes --script-args='username=root,password=""' -p 330
 ```
 33.  Find the number of records stored in table “authors” in database “books” stored on MySQL Server using mysql-query nmap script.
 ```
-nmap --script mysql-query --script-args="query ='select * from books.authors;'username=root,password=""' -p 3306 192.12.132.3
+nmap --script mysql-query --script-args="query ='select * from books.authors;',username='root',password=''" -p 3306 192.12.132.3
 ```
