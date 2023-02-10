@@ -379,26 +379,49 @@ nmap [ip] -p 22 -sV
 
 gzip -d /usr/share/wordlists/rockyou.txt.gz
 
-hydra -l student -P /usr/share/wordlists/rock
+hydra -l student -P /usr/share/wordlists/rockyou.txt [ip] ssh
 ```
 
 3.  Find the password of user “administrator” use appropriate Nmap scripts with password dictionary: /usr/share/nmap/nselib/data/passwords.lst
 ```
-
-
-
-nmap [ip] -p 22 --script s
+nmap [ip] -p 22 --script ssh-brute --script-args userdb=/root/user
 ```
 
 5.  Find the password of user “root” using ssh_login Metasploit module with userpass dictionary: /usr/share/wordlists/metasploit/root_userpass.txt
 ```
-
+msfconsole - use auxiliary/scanner/ssh/ssh_login
 ```
 
 7.  What is the message of the day? (Printed after the user logs in to the SSH server).
 ```
+ssh root@[ip]
+password: relevant pass
+```
+---
+# Windows Recon: IIS: Nmap Scripts
+
+1.  Identify IIS Server
+```
+nmap [ip]
+
+nmap [ip] -p 80 -sV 
+```
+
+3.  Get webserver header details
+```
 
 ```
+
+4.  Enumerated HTTP methods
+```
+
+```
+
+5.  Detect WebDAV configuration - etc.
+```
+
+```
+---
 
 ---
 # MySQL Recon: Basics
