@@ -650,4 +650,10 @@ msfconsole - use auxiliary/scanner/mssql/mssql_enum_domain_accounts
 ```
 
 ---
-# 
+# Nessus
+```
+https://[ip]:8834/#/
+
+/opt/nessus/sbin/nessuscli chpasswd admin - to change your password to admin
+```
+
