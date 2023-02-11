@@ -38,3 +38,27 @@ Upon connecting to the network, the tester started the Responder tool and was ab
 ![[Pasted image 20230211164609.png]]
 
 # 5. Technical Findings Details
+
+1. LLMNR/NBT-NS Response Spoofing - High
+
+![[Pasted image 20230211164707.png]]
+
+Finding Evidence:
+
+![[Pasted image 20230211164736.png]]
+
+# 6. Appendices
+
+![[Pasted image 20230211164827.png]]
+
+
+![[Pasted image 20230211164841.png]]
+
+![[Pasted image 20230211164850.png]]
+
+![[Pasted image 20230211164900.png]]
+
+![[Pasted image 20230211164908.png]]
+
+![[Pasted image 20230211164912.png]]
+
