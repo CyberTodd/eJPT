@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "2a08c4977b48ff0e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20230212172036.png"
-              }
-            }
-          },
-          {
             "id": "8dbcaefea326f29e",
             "type": "leaf",
             "state": {
@@ -52,9 +42,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a08c4977b48ff0e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20230212172036.png"
+              }
+            }
+          },
+          {
+            "id": "fe76a4e49b3344f5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230212172451.png"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Report/Report - PTES.md",
+                "file": "Report/Report - Hack The Box.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Report/Report - PTES.md",
+                "file": "Report/Report - Hack The Box.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Report/Report - PTES.md"
+                "file": "Report/Report - Hack The Box.md"
               }
             }
           }
@@ -181,17 +191,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8dbcaefea326f29e",
+  "active": "936f06ba5bc9035b",
   "lastOpenFiles": [
-    "Images/Pasted image 20230212172036.png",
     "Report/Report - PTES.md",
+    "Pasted image 20230212172451.png",
+    "Images/Pasted image 20230212172036.png",
     "Report/Report - Hack The Box.md",
     "LABS/Labs.md",
     "Pasted image 20230212172011.png",
     "Pasted image 20230212172021.png",
     "I. Assessment Methodologies/4. Vulnerability Assessment.md",
     "LABS/Untitled 1.md",
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md",
-    "MacOS Directory Structure/MacOS Directory Structure.md"
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md"
   ]
 }
