@@ -51,3 +51,19 @@ This section will communicate to the reader the technical details of the test an
 		-   Strength of Test
 		-   Approach
 		-   Threat/Grading Structure
+
+2. Information Gathering
+	-  In this section, a number of items should be written up to show the CLIENT the extent of public and private information available through the execution of the Intelligence gathering phase of PTES. At a minimum, the results identified should be presented in 4 basic categories:
+		1. Passive Intelligence
+			- Intelligence gathered from indirect analysis such as DNS,Google dorking for IP/infrastructure related information. This section will focus on the techniques used to profile the technology in the CLIENT environment WITHOUT sending any traffic directly to the assets.
+		2. Active Intelligence
+			- This section will show the methods and results of tasks such as infrastructure mapping, port scanning, and architecture assessment and other foot printing activities. This section will focus on the techniques used to profile the technology in the CLIENT environment by sending traffic DIRECTLY to the assets.
+		3. Corporate Intelligence
+			- Information about the structure of the organization, business units, market share, vertical, and other corporate functions should be mapped to both business process and the previously identified physical assets being tested.
+		4. Personnel Intelligence
+			- 
+1. Vulnerability Assessment
+2. Exploitation/ Vulnerability Confirmation
+3. Post Exploitation
+4. Risk/Exposure
+5. Conclusion
