@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md"
+                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md"
               }
             }
           }
@@ -160,8 +160,8 @@
   },
   "active": "fe85f03fa64c8f54",
   "lastOpenFiles": [
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md",
     "LABS/Labs.md",
     "Report/Report.md",
