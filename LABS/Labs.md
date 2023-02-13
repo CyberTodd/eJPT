@@ -660,4 +660,19 @@ https://[ip]:8834/#/
 ---
 # Exploiting Windows Vulnerabilities
 
+##### IIS Server DAVTest
+
+
+---
+##### IIS Server: WebDav Metasploit
+
+---
+##### SMB Server PSexec
+
+---
+##### Insecure RDP Service
+
+---
+##### WinRM Exploitation with Metasploit
+
 ---
