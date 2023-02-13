@@ -20,6 +20,34 @@
 > The “Overall Risk Score” for the (CLIENT) is currently a Seven (7). This rating implies an ELEVATED risk of security controls being compromised with the potential for material financial losses. The consultant determined this risk score based on one high risk and several medium risk vulnerabilities, along with the success of directed attack. The most severe vulnerability identified was the presence of default passwords in the corporate public facing website which allowed access to a number of sensitive documents and the ability to control content on the device. This vulnerability could lead to theft of user accounts, leakage of sensitive information, or full system compromise. Several lesser severe vulnerabilities could lead to theft of valid account credentials and leakage of information.
 
 4. General Findings:
-	- 
+	- The general findings will provide a synopsis of the issues found during the penetration test in a basic and statistical format. Graphic representations of the targets tested, testing results, processes, attack scenarios, success rates, and other trendable metrics as defined within the pre engagement meeting should be present. In addition, the cause of the issues should be presented in an easy to read format. (ex. A graph showing the root cause of issues exploited)
 
+![[Pasted image 20230213135054.png]]
+
+> If defined within the Pre engagement exercise, this area should also include metrics which depict the effectiveness of the countermeasures within the environment. (ex.. we ran x attacks and IPS blocked y. Other countermeasures should also have similar metrics of design vs. effectiveness.)
+
+5. Recommendation Summary
+	- The recommendation section of the report should provide the reader with a high level understanding of the tasks needed to resolve the risks identified and the general level of effort required to implement the resolution path suggested. This section will also identify the weighting mechanisms used to prioritize the order of the road map following.
+
+6. Strategic Roadmap
+	- Roadmaps should include a prioritized plan for remediation of the insecure items found and should be weighed against the business objectives/ level of potential impact. This section should map directly to the goals identified as well as the threat matrix created in the PTES-Threat modeling section. By breaking up into predefined time/objective based goals, this section will create a path of action to follow in various increments. Example:
+
+![[Pasted image 20230213135320.png]]
+![[Pasted image 20230213135333.png]]
+![[Pasted image 20230213135344.png]]
+
+---
 # 2. Technical Report
+
+This section will communicate to the reader the technical details of the test and all of the aspects/components agreed upon as key success indicators within the pre engagement exercise. The technical report section will describe in detail the scope, information, attack path, impact and remediation suggestions of the test.
+
+1. Introduction
+	- The introduction section of the technical report is intended to be an initial inventory of:
+		-   Personnel involved in the testing from both the Client and Penetration Testing Team
+		-   Contact information
+		-   Assets involved in testing
+		-   Objectives of Test
+		-   Scope of Test
+		-   Strength of Test
+		-   Approach
+		-   Threat/Grading Structure
