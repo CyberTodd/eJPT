@@ -660,8 +660,25 @@ https://[ip]:8834/#/
 ---
 # Exploiting Windows Vulnerabilities
 
-##### IIS Server DAVTest
+##### Exploiting Microsoft IIS WebDAV
 
+[Davtest](https://code.google.com/archive/p/davtest/):
+
+-   Davtest is a WebDAV scanner that sends exploit files to the WebDAV server and automatically creates the directory and uploads different format types of files. The tool also tried to execute uploaded files and gives us an output of successfully executed files.
+
+[cadaver](https://github.com/grimneko/cadaver):
+
+-   Cadaver is a tool for WebDAV clients, which supports a command-line style interface. It supports operations such as uploading files, editing, moving, etc.
+
+``` 
+// first step -nmap to identify open ports and services running on them
+nmap [ip] -sV -sC
+```
+
+```
+
+
+```
 
 ---
 ##### IIS Server: WebDav Metasploit
