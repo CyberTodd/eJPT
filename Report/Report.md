@@ -121,11 +121,30 @@ This section will communicate to the reader the technical details of the test an
 		-   Ability for exfiltration
 		-   Countermeasure Effectiveness
 		    This section should cover the effectiveness of countermeasures that are in place on the systems in scope. It should include sections on both active (proactive) and passive (reactive) countermeasures, as well as detailed information on any incident response activities triggered during the testing phase. A listing of countermeasures that were effective in resisting assessment activities will help the CLIENT better tune detection systems and processes to handle future intrusion attempts.
-				    -   Detection Capability
-				        -   FW/WAF/IDS/IPS
-				        -   Human
-				        -   DLP
-				        -   Log
-				    -   Response & effectiveness
-1. Risk/Exposure
-2. Conclusion
+			- Detection Capability
+				- FW/WAF/IDS/IPS
+				- Human
+				- DLP
+				- Log
+			- Response & Effectiveness
+6. Risk/Exposure
+	- Once the direct impact to the business is qualified through the evidence existing in the vulnerability, exploitation and post exploitation sections, the risk quantification can be conducted. In this section the results above are combined with the risk values, information criticality, corporate valuation, and derived business impact from the pre engagement section. This will give the CLIENT the ability to identify, visualize and monetize the vulnerabilities found throughout the testing and effectively weight their resolution against the CLIENTS business objectives. This section will cover the business risk in the following subsections:
+		-   Evaluate incident frequency
+		    -   probable event frequency
+		    -   estimate threat capability (from 3 - threat modeling)
+		    -   Estimate controls strength (6)
+		    -   Compound vulnerability (5)
+		    -   Level of skill required
+		    -   Level of access required
+		-   Estimate loss magnitude per incident
+		    -   Primary loss
+		    -   Secondary loss
+		    -   Identify risk root cause analysis
+		        -   Root Cause is never a patch
+		        -   Identify Failed Processes
+		-   Derive Risk
+		    -   Threat
+		    -   Vulnerability
+		    -   Overlap
+7. Conclusion
+	- Final overview of the test. It is suggested that this section echo portions of the overall test as well as support the growth of the CLIENT security posture. It should end on a positive note with the support and guidance to enable progress in the security program and a regimen of testing/security activity in the future to come.
