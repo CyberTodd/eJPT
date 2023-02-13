@@ -657,3 +657,6 @@ https://[ip]:8834/#/
 /opt/nessus/sbin/nessuscli chpasswd admin - to change your password to admin
 ```
 
+---
+# Exploiting Windows Vulnerabilities
+
