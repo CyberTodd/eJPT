@@ -681,8 +681,17 @@ nmap [ip] -sV -sC
 nmap [ip] -p 80 --script=http-enum - you can then log in by going to the /webdav/ directory link
 
 // perform a brute force 
-hydra -L /usr/share/wordlists/metasploit/common_users.txt -P /usr/share/wordlist/metasploit/common_passwords.txt [ip] http-get /webdav/  - here you start by specifying -L tag that means you don't know the user and you want to check for 
+
+hydra -L /usr/share/wordlists/metasploit/common_users.txt -P /usr/share/wordlist/metasploit/common_passwords.txt [ip] http-get /webdav/  - here you start by specifying -L tag that means you don't know the user and you want to check for one from a list, same for the password, then you offer the ip, the method or the protocol and then you specify the directory that contains the identifying form
 ```
+
+```
+
+// check what types of files can be uploaded 
+
+davtest -auth bob:password_123321 -url []/webdav 
+```
+
 
 ---
 ##### IIS Server: WebDav Metasploit
