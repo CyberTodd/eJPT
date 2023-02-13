@@ -61,9 +61,71 @@ This section will communicate to the reader the technical details of the test an
 		3. Corporate Intelligence
 			- Information about the structure of the organization, business units, market share, vertical, and other corporate functions should be mapped to both business process and the previously identified physical assets being tested.
 		4. Personnel Intelligence
-			- 
-1. Vulnerability Assessment
-2. Exploitation/ Vulnerability Confirmation
-3. Post Exploitation
-4. Risk/Exposure
-5. Conclusion
+			- Any and all information found during the intelligence collection phase which maps users to the CLIENT organization. This section should show the techniques used to harvest intelligence such as public/private employee depots, mail repositories, org charts and other items leading to the connection of employee/company.
+3. Vulnerability Assessment
+	- Vulnerability assessment is the act of identifying the POTENTIAL vulnerabilities which exist in a TEST and the threat classification of each threat. In this section, a definition of the methods used to identify the vulnerability as well as the evidence/classification of the vulnerability should be present. In addition this section should include:
+		-   Vulnerability Classification Levels
+		-   Technical Vulnerabilities
+		    -   OSI Layer Vulns
+		    -   Scanner Found
+		    -   Manually identified
+		    -   Overall Exposure
+		-   Logical Vulnerabilities
+		    -   NON OSI Vuln
+		    -   Type of vuln
+		    -   How/Where it is found
+		    -   Exposure
+		-   Summary of Results
+4. Exploitation/ Vulnerability Confirmation
+	-  Exploitation or Vulnerability confirmation is the act of triggering the vulnerabilities identified in the previous sections to gain a specified level of access to the target asset. This section should review, in detail, all of the steps taken to confirm the defined vulnerability as well as the following:
+		-   Exploitation Timeline
+		-   Targets selected for Exploitation
+		-   Exploitation Activities
+		    -   Directed Attack
+		        -   Target Hosts unable to be Exploited
+		        -   Target Hosts able to be Exploited
+		            -   Individual Host Information
+		            -   Attacks conducted
+		            -   Attacks Successful
+		            -   Level of access Granted +escalation path
+		            -   Remediation
+		                -   Link to Vuln section reference
+		                -   Additional Mitigating technique
+		                -   Compensating control suggestion
+		-   Indirect Attack
+		    -   Phishing
+		        -   Timeline/details of attack
+		        -   Targets identified
+		        -   Success/Fail ratio
+		        -   Level of access granted
+		    -   Clientside
+		        -   Timeline/details of attack
+		        -   Targets identified
+		        -   Success/Fail ratio
+		        -   Level of access granted
+		    -   Browser Side
+		        -   Timeline/details of attack
+		        -   Targets identified
+		        -   Success/Fail ratio
+		        -   Level of access granted
+5. Post Exploitation
+	- One of the most critical items in all testing is the connection to ACTUAL impact on the CLIENT being tested. While the sections above relay the technical nature of the vulnerability and the ability to successfully take advantage of the flaw, the Post Exploitation section should tie the ability of exploitation to the actual risk to the business. In this area the following items should be evidenced through the use of screenshots, rich content retrieval, and examples of real world privileged user access:
+		-   Privilege Escalation path
+		    -   Technique used
+		-   Acquisition of Critical Information Defined by client
+		-   Value of information
+		-   Access to core business systems
+		-   Access to compliance protected data sets
+		-   Additional Information/Systems Accessed
+		-   Ability of persistence
+		-   Ability for exfiltration
+		-   Countermeasure Effectiveness
+		    This section should cover the effectiveness of countermeasures that are in place on the systems in scope. It should include sections on both active (proactive) and passive (reactive) countermeasures, as well as detailed information on any incident response activities triggered during the testing phase. A listing of countermeasures that were effective in resisting assessment activities will help the CLIENT better tune detection systems and processes to handle future intrusion attempts.
+				    -   Detection Capability
+				        -   FW/WAF/IDS/IPS
+				        -   Human
+				        -   DLP
+				        -   Log
+				    -   Response & effectiveness
+1. Risk/Exposure
+2. Conclusion
