@@ -707,17 +707,28 @@ ls -al /usr/share/webshells - to check pre-packed Linux webshells
 
 ```
 
-
 ---
 ##### Exploiting WebDav With Metasploit
 
----
-##### Exploiting SMB Server PSexec
 
 ---
-##### Insecure RDP Service
+##### Exploiting SMB With PSexec
+
 
 ---
-##### WinRM Exploitation with Metasploit
+##### Exploiting Windows MS17-010 SMB Vulnerability (EternalBlue)
+
+
+---
+##### Exploiting RDP
+
+
+---
+##### Exploiting Windows CVE-2019-0708 RDP Vulnerability (BlueKeep)
+
+
+---
+##### Exploiting WinRM
+
 
 ---
