@@ -758,3 +758,8 @@ ls -al /usr/share/webshells - to check pre-packed Linux webshells
 
 ![[Pasted image 20230216203931.png]]
 
+![[Pasted image 20230216204024.png]]
+
+---
+##### Exploiting Setuid Programs
+
