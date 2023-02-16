@@ -732,3 +732,15 @@ ls -al /usr/share/webshells - to check pre-packed Linux webshells
 
 
 ---
+##### Cron Jobs Gone Wild II
+
+- check what cron tabs are scheduled
+![[Pasted image 20230216202733.png]]
+
+- list everything from home directory
+![[Pasted image 20230216202822.png]]
+
+- cat message will give you an error because only root user can do that;
+- pwd to display the actual location / to confirm the location;
+- cd / - go to root
+- grep -rnw /usr -e "/home/student/message" - 
