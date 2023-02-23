@@ -173,15 +173,15 @@
   },
   "active": "f3c556ba2f37a9ab",
   "lastOpenFiles": [
+    "LABS/Labs.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10. Linux Credential Dumping.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/9. Linux Privilege Escalation.md",
-    "LABS/Labs.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/8. Exploiting Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/2. Windows Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md",
-    "Report/Report.md",
-    "Report/Report - PTES.md"
+    "Report/Report.md"
   ]
 }

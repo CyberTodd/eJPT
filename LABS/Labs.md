@@ -7,7 +7,7 @@ nmap [ip] -p 1-250 -sU
 
 ```
 
-3.  Identify the port running a TFTP server.
+2.  Identify the port running a TFTP server.
 ```
 nmap [ip] -p 134 -sUV --script=discovery 
 
