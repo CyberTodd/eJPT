@@ -119,4 +119,18 @@
 - after you run it in the web, you will get a webshell
 ![[Pasted image 20230320214715.png]]
 - webdav with msfconsole
-	- generate the payload with msfvenom
+	- generate the payload with msfvenom - after generation check it - use the default 32-bit payload
+![[Pasted image 20230320214935.png]]
+- now with cadaver upload it
+![[Pasted image 20230320215027.png]]
+![[Pasted image 20230320215039.png]]
+- now before execution we need to setup a listener with msf
+![[Pasted image 20230320215122.png]]
+![[Pasted image 20230320215147.png]]
+- after this execute it on the target
+![[Pasted image 20230320215200.png]]
+![[Pasted image 20230320215207.png]]
+- to automate this process use the exploit iis_webdav_upload_asp
+![[Pasted image 20230320215316.png]]
+![[Pasted image 20230320215337.png]]
+
