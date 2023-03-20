@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7c465f3c2befb891",
+        "id": "1c63b8fb26f9be17",
         "type": "tabs",
         "children": [
           {
-            "id": "fe85f03fa64c8f54",
+            "id": "a0b1f76687c9b9f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10. Linux Credential Dumping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3c556ba2f37a9ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LABS/Labs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d24e125958b9be9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LABS/Labs.md",
+                "file": "Last Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LABS/Labs.md",
+                "file": "Last Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LABS/Labs.md",
+                "file": "Last Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LABS/Labs.md"
+                "file": "Last Notes.md"
               }
             }
           }
@@ -171,17 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3c556ba2f37a9ab",
+  "active": "a0b1f76687c9b9f5",
   "lastOpenFiles": [
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
+    "Report/Report.md",
+    "Last Notes.md",
     "LABS/Labs.md",
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10. Linux Credential Dumping.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/9. Linux Privilege Escalation.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/8. Exploiting Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/7. Linux Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/2. Windows Vulnerabilities.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/6. Windows Credential Dumping.md",
-    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md",
-    "Report/Report.md"
+    "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/5. Windows File System Vulnerabilities.md"
   ]
 }
