@@ -92,4 +92,5 @@
 
 - check traffic on a network - wireshark
 
-- Windows Service - SMB on port 139, 445 - is used to communicate over NetBIOS
+- SMB on port 139, 445 - is used to communicate over NetBIOS; SAMBA is the Linux implementation of the SMB protocol;
+- 
