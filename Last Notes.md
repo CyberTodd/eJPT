@@ -43,3 +43,20 @@
 
 
 ---
+# Linux Shell Commands
+
+```
+whatis // utility will display what a command does
+```
+![[Pasted image 20230320174752.png]]
+![[Pasted image 20230320174835.png]]
+
+
+
+
+
+
+
+# Check IPs of URLs
+
+
