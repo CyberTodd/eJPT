@@ -96,4 +96,6 @@
 - Frequently Exploited Windows Services:
 	- Microsoft IIS TCP 80/ 443
 	- WebDAV TCP 80/ 443
-	- SMB/CIFS
+	- SMB/CIFS TCP 445
+	- RDP TCP 3389
+	- WinRM TCP 5986/ 443
