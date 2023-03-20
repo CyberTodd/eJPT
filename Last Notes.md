@@ -45,18 +45,20 @@
 ---
 # Linux Shell Commands
 
-```
-whatis // utility will display what a command does
-```
+
+- whatis // utility will display what a command does
 ![[Pasted image 20230320174752.png]]
+
+- host command - to check IPs of URLs 
 ![[Pasted image 20230320174835.png]]
 
+- To check some technologies on the site - whatweb utility
+![[Pasted image 20230320175120.png]]
+- whois - another utility that offers information about a website
+![[Pasted image 20230320175318.png]]
 
+- httrack - to copy a web to your machine 
+![[Pasted image 20230320175152.png]]
 
-
-
-
-
-# Check IPs of URLs
 
 
