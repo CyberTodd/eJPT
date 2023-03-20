@@ -80,3 +80,8 @@
 - for further OSINT check - use Google Dorks
 
 - to check emails, names, subdomains, IPs, and URLs use also theHarvester
+![[Pasted image 20230320180345.png]]
+
+- dnsenum - enumerate dns
+![[Pasted image 20230320180652.png]]
+- fierce - is a scanner that helps locate non-contiguous IP space and hostnames against specific domains.
