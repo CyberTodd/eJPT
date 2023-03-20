@@ -63,10 +63,20 @@
 ![[Pasted image 20230320175650.png]]
 - to enumerate DNS records
 ![[Pasted image 20230320175818.png]]
-
+- another incredible tool to check dns records and other information
+![[Pasted image 20230320175858.png]]
+![[Pasted image 20230320175908.png]]
 
 - httrack - to copy a web to your machine 
 ![[Pasted image 20230320175152.png]]
 
+- identify WAF with wafw00f
+![[Pasted image 20230320180033.png]]
 
+- sublist3r is a tool used to enumerate subdomains of websites using OSINT
+- if Google is blocking requests use a VPN to bypass this, otherwise use another SE
+![[Pasted image 20230320180138.png]]
 
+- for further OSINT check - use Google Dorks
+
+- to check emails, names, subdomains, IPs, and URLs use also theHarvester
