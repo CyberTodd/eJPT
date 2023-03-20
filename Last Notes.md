@@ -84,4 +84,10 @@
 
 - dnsenum - enumerate dns
 ![[Pasted image 20230320180652.png]]
-- fierce - is a scanner that helps locate non-contiguous IP space and hostnames against specific domains.
+- fierce - is a scanner that helps locate non-contiguous IP space and hostnames against specific domains
+![[Pasted image 20230320180846.png]]
+
+- identify hosts on a network - arp-scan 
+![[Pasted image 20230320181156.png]]
+
+- check traffic on a network - wireshark
