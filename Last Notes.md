@@ -94,8 +94,12 @@
 
 - SMB on port 139, 445 - is used to communicate over NetBIOS; SAMBA is the Linux implementation of the SMB protocol;
 - Frequently Exploited Windows Services:
-	- Microsoft IIS TCP 80/ 443
-	- WebDAV TCP 80/ 443
+	- Microsoft IIS TCP 80/ 443 - WebDAV TCP 80/ 443
 	- SMB/CIFS TCP 445
 	- RDP TCP 3389
 	- WinRM TCP 5986/ 443
+
+- IIS is a proprietary extensible web server software developed by Microsoft - supported executable files: .asp, .aspx, .config, .php
+- WebDAV is a set of extensions to the HTTP protocol which allow users to collaboratively edit and manage files on remote web servers - it runs on top of IIS
+	- to connect to a webdav server you need legitimate credentials
+	- 
