@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a0b1f76687c9b9f5",
+            "id": "f857f3f994e4cd45",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,6 +16,28 @@
                 "file": "Last Notes.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "a0b1f76687c9b9f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LABS/Labs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22fe05ec4ffcedc4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230320114155.png"
               }
             }
           }
@@ -146,11 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0b1f76687c9b9f5",
+  "active": "f857f3f994e4cd45",
   "lastOpenFiles": [
-    "Report/Report.md",
+    "Pasted image 20230320114304.png",
+    "Pasted image 20230320114155.png",
     "Last Notes.md",
+    "Pasted image 20230320114254.png",
+    "Pasted image 20230320114242.png",
+    "Pasted image 20230320114227.png",
     "LABS/Labs.md",
+    "Windows Folder Structure/Windows Folder System and more.md",
+    "Report/Report.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10. Linux Credential Dumping.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/9. Linux Privilege Escalation.md",

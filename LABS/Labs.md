@@ -1,3 +1,8 @@
+
+![[Pasted image 20230320114155.png]]
+
+
+
 # Footprinting & Scanning - Lab 2
 1.  Identify the port running a Bind DNS server.
 ```
