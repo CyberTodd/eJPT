@@ -91,3 +91,5 @@
 ![[Pasted image 20230320181156.png]]
 
 - check traffic on a network - wireshark
+
+- Windows Service - SMB on port 139, 445 - is used to communicate over NetBIOS
