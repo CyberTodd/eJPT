@@ -105,3 +105,18 @@
 	- davtest is checking if webdav was configured for a server and also you can login with it
 - for example here we see that is opened but it will fail because we need to insert creds
 ![[Pasted image 20230320214305.png]]
+- here davtest will tell us what kind of files we can upload on the webdav server
+![[Pasted image 20230320214339.png]]
+- here .asp is the most important 
+![[Pasted image 20230320214437.png]]
+- now with cadaver we can upload our webshell.asp
+![[Pasted image 20230320214500.png]]
+![[Pasted image 20230320214512.png]]
+- it will then provide with a pseudo-shell
+![[Pasted image 20230320214528.png]]
+- if successful - check the webdav uploaded file
+![[Pasted image 20230320214615.png]]
+- after you run it in the web, you will get a webshell
+![[Pasted image 20230320214715.png]]
+- webdav with msfconsole
+	- generate the payload with msfvenom
