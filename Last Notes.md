@@ -54,8 +54,16 @@
 
 - To check some technologies on the site - whatweb utility
 ![[Pasted image 20230320175120.png]]
-- whois - another utility that offers information about a website
+- whois - another utility that offers information about a website - especially server name, registrars,  update, creation dates, etc.
 ![[Pasted image 20230320175318.png]]
+- there is also the web gui - whois is not that accurate just make sure to check with the terminal utility
+![[Pasted image 20230320175502.png]]
+
+- netcraft is an incredible website that offers information about an url - is a better whois version
+![[Pasted image 20230320175650.png]]
+- to enumerate DNS records
+![[Pasted image 20230320175818.png]]
+
 
 - httrack - to copy a web to your machine 
 ![[Pasted image 20230320175152.png]]
