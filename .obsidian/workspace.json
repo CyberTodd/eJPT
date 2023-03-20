@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
+                "file": "LABS/Labs.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
+                "file": "LABS/Labs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
+                "file": "LABS/Labs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md"
+                "file": "LABS/Labs.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "f3c556ba2f37a9ab",
   "lastOpenFiles": [
-    "LABS/Labs.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/2. Host & Network Penetration Testing Network-Based Attacks/1. Overview.md",
+    "LABS/Labs.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/10. Linux Credential Dumping.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/9. Linux Privilege Escalation.md",
     "III. Host & Network Penetration Testing - System - Host Based Attacks/1. Host & Network Penetration Testing System - Host Based Attacks/8. Exploiting Linux Vulnerabilities.md",
