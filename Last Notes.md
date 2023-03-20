@@ -101,5 +101,7 @@
 
 - IIS is a proprietary extensible web server software developed by Microsoft - supported executable files: .asp, .aspx, .config, .php
 - WebDAV is a set of extensions to the HTTP protocol which allow users to collaboratively edit and manage files on remote web servers - it runs on top of IIS
-	- to connect to a webdav server you need legitimate credentials
-	- 
+	- to connect to a webdav server you need legitimate credentials when you jump into the /webdav/ directory - use hydra to brute the creds
+	- davtest is checking if webdav was configured for a server and also you can login with it
+- for example here we see that is opened but it will fail because we need to insert creds
+![[Pasted image 20230320214305.png]]
