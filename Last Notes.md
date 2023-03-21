@@ -298,5 +298,18 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321183842.png]]
 - we have now winPEAS on the target - we can use it to enumerate something from the target
 ![[Pasted image 20230321183907.png]]
-- rename it to payload and place it to the temp direc
+- rename it to payload and place it to the temp directory and navigate there
 ![[Pasted image 20230321183946.png]]
+![[Pasted image 20230321184010.png]]
+- now we use a legitimate text file in which we place the payload
+![[Pasted image 20230321184054.png]]
+![[Pasted image 20230321184119.png]]
+- now we open notepad to make windowslogs as legitimate as possible (for a real attack)
+- we can now even delete payload because we place it inside the resource stream of windowslog.txt file
+![[Pasted image 20230321184230.png]]
+- to start the executable payload 
+	- we have an error - but we have to create a symbolic link 
+![[Pasted image 20230321184252.png]]
+![[Pasted image 20230321184316.png]]
+- but we need an elevated session
+![[Pasted image 20230321184408.png]]
