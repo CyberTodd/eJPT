@@ -224,3 +224,15 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321180728.png]]
 - now after all the checks let's look at uacme tool
 ![[Pasted image 20230321180830.png]]
+- terminate the channel to be on the meterpreter session
+- identify akagai64 on your system
+![[Pasted image 20230321181146.png]]
+- generate a meterpreter payload with msfvenom we transfer it to the target then we use the akagi   executable then execute the payload
+- generate the payload with msfvenom
+![[Pasted image 20230321181241.png]]
+- next - setup the listener with msfconsole - multi_handler
+![[Pasted image 20230321181333.png]]
+- next - upload the file and access it - check the temp directory on the file - if is not there create one, if is move there
+![[Pasted image 20230321181449.png]]
+- now 
+
