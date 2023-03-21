@@ -408,4 +408,16 @@ check the temp directory and navigate into it and check it
 - another way to go around if we only have the NTLM hash and the user name - crackmapexec
 ![[Pasted image 20230321220851.png]]
 ![[Pasted image 20230321220901.png]]
-- now you 
+- now you can execute some commands on the system
+![[Pasted image 20230321220924.png]]
+
+--- 
+- Frequently Exploited Linux Services 
+- Apache Web Server - TCP ports 80/443
+- SSH - TCP port 22
+- FTP - TCP port 21
+- SAMBA - TCP port 445
+
+- Linux Privilege Escalation
+- Linux Kernel Exploits
+- typical Linux systems that host web servers you will 
