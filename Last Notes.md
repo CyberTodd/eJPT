@@ -135,4 +135,7 @@
 - specify the directory and then use a custom name 
 ![[Pasted image 20230320215337.png]]
 
-- SMB with psexec
+- SMB with psexec - is a lightweight telnet-replacement developed by Microsoft that allows you to execute processes on remote windows systems using any user's creds - is similar to RDP, but instead of a gui we send commends in the cmd
+![[Pasted image 20230321170813.png]]
+- xfreerdp for Linux to authenticate with rdp - you need credentials
+![[Pasted image 20230321170934.png]]
