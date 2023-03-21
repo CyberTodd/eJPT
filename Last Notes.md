@@ -132,5 +132,7 @@
 ![[Pasted image 20230320215207.png]]
 - to automate this process use the exploit iis_webdav_upload_asp
 ![[Pasted image 20230320215316.png]]
+- specify the directory and then use a custom name 
 ![[Pasted image 20230320215337.png]]
 
+- SMB with psexec
