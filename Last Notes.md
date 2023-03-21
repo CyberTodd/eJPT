@@ -281,5 +281,22 @@ check the temp directory and navigate into it and check it
 - open a cmd session and create a text file on Desktop
 ![[Pasted image 20230321183403.png]]
 ![[Pasted image 20230321183428.png]]
-- the data stream is whenever you open a file - is the data stored in the 
+- the data stream is whenever you open a file - is the data stored in the data stream
 ![[Pasted image 20230321183446.png]]
+- if you open properties - details - you will see the resource stream (metadata)
+	- here we can hide some malicious payloads
+![[Pasted image 20230321183517.png]]
+- now to create another file and to hide something inside 
+	- is not opening test.txt - is will open secret.txt
+![[Pasted image 20230321183628.png]]
+![[Pasted image 20230321183649.png]]
+- if you list the content of Desktop you can also see that is 0 bytes
+![[Pasted image 20230321183715.png]]
+- open test.txt and put some data
+![[Pasted image 20230321183729.png]]
+- to access again the secret file
+![[Pasted image 20230321183842.png]]
+- we have now winPEAS on the target - we can use it to enumerate something from the target
+![[Pasted image 20230321183907.png]]
+- rename it to payload and place it to the temp direc
+![[Pasted image 20230321183946.png]]
