@@ -199,4 +199,6 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321173952.png]]
 ![[Pasted image 20230321174010.png]]
 
-- 
+- Bypassing UAC with UACme
+- check users in the system and the localgroup
+![[Pasted image 20230321174909.png]]
