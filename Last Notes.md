@@ -325,3 +325,19 @@ check the temp directory and navigate into it and check it
 - open the victim cmd
 ![[Pasted image 20230321193810.png]]
 - utilize certutil that's built in on windows to download files form a webserver
+![[Pasted image 20230321193855.png]]
+- now close the server and open msfconsole and open the handler and after run the payload.exe
+![[Pasted image 20230321193924.png]]
+![[Pasted image 20230321193941.png]]
+- search file on windows
+![[Pasted image 20230321194000.png]]
+- check it manually the unattend.xml
+![[Pasted image 20230321194026.png]]
+- now we download the file on our machine
+![[Pasted image 20230321194102.png]]
+![[Pasted image 20230321194048.png]]
+- after we cat unattend.xml we have the autologon - we have the password of administrator encoded in base64
+![[Pasted image 20230321194156.png]]
+- create a file with vim to paste the password and use the base64 tool that comes with Linux
+![[Pasted image 20230321194236.png]]
+![[Pasted image 20230321194241.png]]
