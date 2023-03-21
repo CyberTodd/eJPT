@@ -316,4 +316,12 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321184408.png]]
 ![[Pasted image 20230321184518.png]]
 
-- Windows Password Hashes - 
+- Search for passwords in Windows configuration files
+- generate a meterperter payload with msfvenom
+![[Pasted image 20230321193548.png]]
+- now setup a simple server with python to host the payload
+![[Pasted image 20230321193609.png]]
+- after we download the payload.exe file onto the target system by accessing the webserver hosted on the Kali system on port 80 - so how do we transfer it?
+- open the victim cmd
+![[Pasted image 20230321193810.png]]
+- utilize certutil that's built in on windows to download files form a webserver
