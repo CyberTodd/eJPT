@@ -440,4 +440,19 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321221811.png]]
 - execute it now - it will enumerate a list of exploits that the specific kernel version is vulnerable
 ![[Pasted image 20230321221841.png]]
+- the most important information for kernel exploitation is here - also the kernel version and architecture
+![[Pasted image 20230321221927.png]]
+- we will use dirtycow - download it - you need gcc package to compile C files
+![[Pasted image 20230321222106.png]]
+![[Pasted image 20230321222134.png]]
+![[Pasted image 20230321222153.png]]
+- rename the exploit to dirty.c
+![[Pasted image 20230321222225.png]]
+![[Pasted image 20230321222246.png]]
+- check the compile code is you need to use a file like this
+![[Pasted image 20230321222238.png]]
+- now to compile let's use the above command
+	- if no errors are displayed it means that it was compiled - we will transfer to the target and see if it works if not we need to compile the C code on the target system
+![[Pasted image 20230321222330.png]]
+- terminate chan
 
