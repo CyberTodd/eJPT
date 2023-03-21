@@ -149,4 +149,4 @@
 - to get a shell version on winrm use evil-winrm.rb
 ![[Pasted image 20230321171411.png]]
 
-- 
+- Windows Privilege Escalation - Kernel Exploitation
