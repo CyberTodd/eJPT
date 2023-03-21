@@ -195,3 +195,8 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321173917.png]]
 - if you execute the program it will prompt with what version of windows you want to use
 ![[Pasted image 20230321173925.png]]
+- after this wait to complete
+![[Pasted image 20230321173952.png]]
+![[Pasted image 20230321174010.png]]
+
+- 
