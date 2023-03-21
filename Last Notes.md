@@ -169,5 +169,15 @@
 - now for a manual privilege escalation
 - switch to the initial meterpreter session that's unprivileged and then we check windows-exploit-suggester tool - you have to clone the tool then update the db
 - in the meterpreter open a shell to have a Windows prompt
-	- the information under systeminfo copy it under a new file - it contains a list of hotfixes 
+	- the information under systeminfo copy it under a new file - it contains a list of hotfixes that were installed and those will be use by our tool
 ![[Pasted image 20230321172906.png]]
+![[Pasted image 20230321172957.png]]
+- now terminate the shell and have the meterpreter session - open a new tab to create the vim file and paste everything that you copied from the systeminfo
+![[Pasted image 20230321173100.png]]
+![[Pasted image 20230321173110.png]]
+- now navigate to the directory where you cloned the windows-exploit-suggester tool
+![[Pasted image 20230321173141.png]]
+- update the db 
+![[Pasted image 20230321173211.png]]
+- now run the latest db and the file you created - the top ones are most successful
+![[Pasted image 20230321173249.png]]
