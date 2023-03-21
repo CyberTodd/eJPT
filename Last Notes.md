@@ -420,4 +420,24 @@ check the temp directory and navigate into it and check it
 
 - Linux Privilege Escalation
 - Linux Kernel Exploits
-- typical Linux systems that host web servers you will 
+- typical Linux systems that host web servers you will see this user
+	- is not part of any group of a Linux system
+![[Pasted image 20230321221410.png]]
+- to check this open a shell session
+![[Pasted image 20230321221451.png]]
+- also list out all the users on the system
+![[Pasted image 20230321221508.png]]
+- now terminate the channel - and the script is 
+![[Pasted image 20230321221604.png]]
+- utilise the quick download option - after that transferit to the target system
+![[Pasted image 20230321221622.png]]
+- navigate on the target on the temp directory
+![[Pasted image 20230321221657.png]]
+![[Pasted image 20230321221712.png]]
+- open a shell session to execute the script - offer execute permissions
+![[Pasted image 20230321221737.png]]
+- you can also see the execute permission that was granted
+![[Pasted image 20230321221811.png]]
+- execute it now - it will enumerate a list of exploits that the specific kernel version is vulnerable
+![[Pasted image 20230321221841.png]]
+
