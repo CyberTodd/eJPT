@@ -343,3 +343,18 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321194241.png]]
 ![[Pasted image 20230321194423.png]]
 ![[Pasted image 20230321194429.png]]
+
+- Dumping Hashes With Mimikatz
+- The SAM database is a database file on Windows systems that stores hashed user passwords - mimikatz can be used to extract hashes from the lsass.exe process memory where hashes are cached
+- perform a nmap and service version detection on the target IP
+- use the msf module to exploit BadBlue to obtain a meterpreter session
+![[Pasted image 20230321215123.png]]
+- after the meterpreter check more info about the system
+![[Pasted image 20230321215235.png]]
+![[Pasted image 20230321215239.png]]
+- we have access as a administrator user
+![[Pasted image 20230321215257.png]]
+- by migrating to the lsass process we have authority privs
+![[Pasted image 20230321215303.png]]
+![[Pasted image 20230321215318.png]]
+![[Pasted image 20230321215330.png]]
