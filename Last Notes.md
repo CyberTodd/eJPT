@@ -181,3 +181,17 @@
 ![[Pasted image 20230321173211.png]]
 - now run the latest db and the file you created - the top ones are most successful
 ![[Pasted image 20230321173249.png]]
+- after the scan is done - copy the microsoft vulnerability ID and check it under the github repo
+![[Pasted image 20230321173621.png]]
+- in here - we will download the exe not the .c - compilation will come later
+- now all we have to do is to transfer the exe file over the target and execute it - but be careful because this does not take in consideration anti-virus detection
+- now with our meterpreter session let's transfer the file to the target
+check the temp directory and navigate into it and check it
+![[Pasted image 20230321173813.png]]
+![[Pasted image 20230321173828.png]]
+- upload the executable with meterpreter
+![[Pasted image 20230321173840.png]]
+![[Pasted image 20230321173900.png]]
+![[Pasted image 20230321173917.png]]
+- if you execute the program it will prompt with what version of windows you want to use
+![[Pasted image 20230321173925.png]]
