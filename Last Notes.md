@@ -247,3 +247,15 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321181707.png]]
 
 - Access Token Impersonation 
+	- The following privs are required for a successful impersonation attack:
+![[Pasted image 20230321182537.png]]
+- we will use the module incognito which is built-in in meterpreter
+- use the target IP to identify ports with nmap - especially http port
+![[Pasted image 20230321182821.png]]
+- get a meterpreter session via the following module
+![[Pasted image 20230321182852.png]]
+- check sysinfo and migrate to the explorer process
+![[Pasted image 20230321182919.png]]
+![[Pasted image 20230321182927.png]]
+- we don't have a privileged account - but we have SeImper
+![[Pasted image 20230321182944.png]]
