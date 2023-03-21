@@ -311,5 +311,9 @@ check the temp directory and navigate into it and check it
 	- we have an error - but we have to create a symbolic link 
 ![[Pasted image 20230321184252.png]]
 ![[Pasted image 20230321184316.png]]
-- but we need an elevated session
+- but we need an elevated session - do the same command after 
+![[Pasted image 20230321184459.png]]
 ![[Pasted image 20230321184408.png]]
+![[Pasted image 20230321184518.png]]
+
+- Windows Password Hashes - 
