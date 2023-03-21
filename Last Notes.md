@@ -232,7 +232,18 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321181241.png]]
 - next - setup the listener with msfconsole - multi_handler
 ![[Pasted image 20230321181333.png]]
-- next - upload the file and access it - check the temp directory on the file - if is not there create one, if is move there
+- next - upload the backdoor file and access it - check the temp directory on the file - if is not there create one, if is move there
 ![[Pasted image 20230321181449.png]]
-- now 
+- now upload akagai - open a shell now
+![[Pasted image 20230321181512.png]]
+- check the files
+![[Pasted image 20230321181525.png]]
+- now we use the method or key 23 to run the executable 
+![[Pasted image 20230321181614.png]]
+- on the meterpreter session we have now privs on the same admin acc
+![[Pasted image 20230321181641.png]]
+![[Pasted image 20230321181652.png]]
+- if we getprivs
+![[Pasted image 20230321181707.png]]
 
+- Access Token Impersonation 
