@@ -139,3 +139,14 @@
 ![[Pasted image 20230321170813.png]]
 - xfreerdp for Linux to authenticate with rdp - you need credentials
 ![[Pasted image 20230321170934.png]]
+
+- WinRM exploitation default port 5985 - to check for if winrm is running use crackmapexec
+	- this will brute force the winrm
+![[Pasted image 20230321171213.png]]
+- we can see that winrm is running because is can see wsman which is the winrm implementation 
+![[Pasted image 20230321171300.png]]
+![[Pasted image 20230321171322.png]]
+- to get a shell version on winrm use evil-winrm.rb
+![[Pasted image 20230321171411.png]]
+
+- 
