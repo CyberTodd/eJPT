@@ -392,7 +392,20 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321220206.png]]
 ![[Pasted image 20230321220231.png]]
 ![[Pasted image 20230321220242.png]]
-- you also get the NTLM hash with hashdump - this is also needed - the LM hash - it is required by the msf
+- you also get the NTLM hash with hashdump - this is also needed - the LM hash - it is required by the metasploit psexec module - then put it in the background
 ![[Pasted image 20230321220335.png]]
+- paste all the hash because you might get errors otherwise
+![[Pasted image 20230321220456.png]]
+![[Pasted image 20230321220517.png]]
+- we also need to configure the target and Native target
+![[Pasted image 20230321220525.png]]
+![[Pasted image 20230321220607.png]]
+![[Pasted image 20230321220550.png]]
+![[Pasted image 20230321220648.png]]
+![[Pasted image 20230321220701.png]]
+![[Pasted image 20230321220709.png]]
 
-
+- another way to go around if we only have the NTLM hash and the user name - crackmapexec
+![[Pasted image 20230321220851.png]]
+![[Pasted image 20230321220901.png]]
+- now you 
