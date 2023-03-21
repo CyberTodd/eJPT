@@ -341,3 +341,5 @@ check the temp directory and navigate into it and check it
 - create a file with vim to paste the password and use the base64 tool that comes with Linux
 ![[Pasted image 20230321194236.png]]
 ![[Pasted image 20230321194241.png]]
+![[Pasted image 20230321194423.png]]
+![[Pasted image 20230321194429.png]]
