@@ -202,3 +202,15 @@ check the temp directory and navigate into it and check it
 - Bypassing UAC with UACme
 - check users in the system and the localgroup
 ![[Pasted image 20230321174909.png]]
+- after checking the target with nmap you identify rejetto 2.3 - exploit it with msf to obtain a meterpreter session
+![[Pasted image 20230321180220.png]]
+- after perform the basic enumeration to check the OS, privileges, etc
+![[Pasted image 20230321180304.png]]
+![[Pasted image 20230321180328.png]]
+- migrate to explorer to upgrade meterpreter to x64
+![[Pasted image 20230321180349.png]]
+- we see admin which is not administrator
+![[Pasted image 20230321180408.png]]
+- get the current privileges 
+	- we identify very few but this does not mean that it can't run 
+![[Pasted image 20230321180423.png]]
