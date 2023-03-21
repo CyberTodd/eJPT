@@ -257,5 +257,29 @@ check the temp directory and navigate into it and check it
 - check sysinfo and migrate to the explorer process
 ![[Pasted image 20230321182919.png]]
 ![[Pasted image 20230321182927.png]]
-- we don't have a privileged account - but we have SeImper
+- we don't have a privileged account - but we have SeImpersonatePrivilege
 ![[Pasted image 20230321182944.png]]
+
+- load the incognito module now 
+	- if the process dies - re-open it
+![[Pasted image 20230321183013.png]]
+- list user access tokens
+![[Pasted image 20230321183045.png]]
+![[Pasted image 20230321183051.png]]
+- copy the administrator token
+![[Pasted image 20230321183127.png]]
+- you just elevated privs
+![[Pasted image 20230321183135.png]]
+![[Pasted image 20230321183154.png]]
+- migrate now again to the explorer and check again
+![[Pasted image 20230321183218.png]]
+![[Pasted image 20230321183223.png]]
+
+- Alternate Data Streams - hide malicious code in files
+- navigate to temp
+![[Pasted image 20230321183332.png]]
+- open a cmd session and create a text file on Desktop
+![[Pasted image 20230321183403.png]]
+![[Pasted image 20230321183428.png]]
+- the data stream is whenever you open a file - is the data stored in the 
+![[Pasted image 20230321183446.png]]
