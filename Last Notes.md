@@ -212,5 +212,15 @@ check the temp directory and navigate into it and check it
 - we see admin which is not administrator
 ![[Pasted image 20230321180408.png]]
 - get the current privileges 
-	- we identify very few but this does not mean that it can't run 
+	- we identify very few but this does not mean that it can't run files like the administrator
 ![[Pasted image 20230321180423.png]]
+- now to verify if this user is part of the administrator group - open a shell
+![[Pasted image 20230321180609.png]]
+- we see that admin is different from administrator
+![[Pasted image 20230321180618.png]]
+- we see that admin is part of the administrator group meaning that it can run programs with elevetad prives but it needs to bypass uac
+![[Pasted image 20230321180632.png]]
+- to check this
+![[Pasted image 20230321180728.png]]
+- now after all the checks let's look at uacme tool
+![[Pasted image 20230321180830.png]]
