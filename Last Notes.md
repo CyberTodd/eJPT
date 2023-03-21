@@ -150,3 +150,13 @@
 ![[Pasted image 20230321171411.png]]
 
 - Windows Privilege Escalation - Kernel Exploitation
+- after you have access to the target system
+![[Pasted image 20230321172058.png]]
+- check privileges
+![[Pasted image 20230321172124.png]]
+- now start to check for kernel vulnerabilities - but before try the msf simple command to try to get an elevated session
+![[Pasted image 20230321172242.png]]
+- now let's use the module that checks for all vulnerabilities 
+![[Pasted image 20230321172321.png]]
+- set the session then run
+
