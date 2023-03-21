@@ -380,3 +380,19 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321215820.png]]
 - the first thing check for the appropriate privs - 20 ok means that we are good to extract hashes 
 ![[Pasted image 20230321215837.png]]
+![[Pasted image 20230321215909.png]]
+
+- Pass-The-Hash technique is used to capture or harvest NTLM hashes or clear-text passwords
+![[Pasted image 20230321220024.png]]
+- obtain a meterpreter session via badblue_passthru - after perform some enumeration on the target
+![[Pasted image 20230321220145.png]]
+![[Pasted image 20230321220148.png]]
+![[Pasted image 20230321220155.png]]
+- lsa_dump_sam to get administrator NTLM hash - and paste it in a file - you also get the same things with mimikatz.exe
+![[Pasted image 20230321220206.png]]
+![[Pasted image 20230321220231.png]]
+![[Pasted image 20230321220242.png]]
+- you also get the NTLM hash with hashdump - this is also needed - the LM hash - it is required by the msf
+![[Pasted image 20230321220335.png]]
+
+
