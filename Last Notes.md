@@ -358,3 +358,25 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230321215303.png]]
 ![[Pasted image 20230321215318.png]]
 ![[Pasted image 20230321215330.png]]
+- kiwi module is a meterpreter extension - mimikatz
+![[Pasted image 20230321215426.png]]
+- if you now open the help menu for meterpreter you have at the bottom the kiwi commands
+![[Pasted image 20230321215507.png]]
+![[Pasted image 20230321215512.png]]
+- retrieve all credentials 
+![[Pasted image 20230321215534.png]]
+![[Pasted image 20230321215547.png]]
+- check all NTLM hashes within the system - we also have the syskey 
+![[Pasted image 20230321215621.png]]
+- navigate to temp
+![[Pasted image 20230321215727.png]]
+![[Pasted image 20230321215733.png]]
+- upload to the tarket mimikatz
+![[Pasted image 20230321215754.png]]
+- open a shell session then
+![[Pasted image 20230321215804.png]]
+![[Pasted image 20230321215808.png]]
+- execute mimikatz now on the target
+![[Pasted image 20230321215820.png]]
+- the first thing check for the appropriate privs - 20 ok means that we are good to extract hashes 
+![[Pasted image 20230321215837.png]]
