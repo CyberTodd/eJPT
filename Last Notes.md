@@ -454,5 +454,16 @@ check the temp directory and navigate into it and check it
 - now to compile let's use the above command
 	- if no errors are displayed it means that it was compiled - we will transfer to the target and see if it works if not we need to compile the C code on the target system
 ![[Pasted image 20230321222330.png]]
-- terminate chan
+- terminate channel and go back to meterpreter - upload the dirtry
+![[Pasted image 20230321222425.png]]
+![[Pasted image 20230321222435.png]]
+- is not working meaning that it was not compiled on our system - let's upload it to the target
+![[Pasted image 20230321222449.png]]
+![[Pasted image 20230321222517.png]]
+![[Pasted image 20230321222531.png]]
+![[Pasted image 20230321222538.png]]
+- successfully connected to the target
+![[Pasted image 20230321222612.png]]
 
+
+- Exploit Misconfigured Cron Jobs
