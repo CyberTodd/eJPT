@@ -562,5 +562,25 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322161551.png]]
 - now let's create the handler from the target system - so open a new tab with msf
 ![[Pasted image 20230322161707.png]]
-- we need to configure the default payload
+- we need to configure the default payload - with what we generated
 ![[Pasted image 20230322161738.png]]
+- first let's do it for windows
+![[Pasted image 20230322161842.png]]
+- set the lhost and lport then run
+![[Pasted image 20230322161900.png]]
+- now that the handler is listening - go to the windows 7 system - navigate to the hosted server 
+![[Pasted image 20230322161929.png]]
+- click on the payload and download it
+![[Pasted image 20230322161941.png]]
+- run it
+![[Pasted image 20230322161947.png]]
+- now check the handler 
+![[Pasted image 20230322161956.png]]
+- you can do the same for a Linux system
+- set the payload to linux now in the multi handler - then run
+![[Pasted image 20230322162110.png]]
+- execute the payload
+![[Pasted image 20230322162123.png]]
+![[Pasted image 20230322162137.png]]
+
+- encoding payloads with msfvenom
