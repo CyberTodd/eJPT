@@ -602,5 +602,11 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322183116.png]]
 - now on the windows workstation let's create the listener on our linux machine
 ![[Pasted image 20230322183142.png]]
-- then on the windows system - access the python server and save the payload D
+- then on the windows system - access the python server and save the payload 
 ![[Pasted image 20230322183159.png]]
+![[Pasted image 20230322183213.png]]
+- check now the handler
+![[Pasted image 20230322183224.png]]
+
+- Injecting Payloads Into Windows Portable Executables
+- 
