@@ -609,4 +609,16 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322183224.png]]
 
 - Injecting Payloads Into Windows Portable Executables
-- 
+- WinRAR worked really well
+![[Pasted image 20230322183814.png]]
+- download the 32bit executable
+![[Pasted image 20230322183843.png]]
+- now generate the payload - after the -x flag you specify the actual portable executable that you want to inject your payload - then where you what to save your final executable - in our case is under Desktop/Windows_Payloads/winrar.exe 
+![[Pasted image 20230322183937.png]]
+![[Pasted image 20230322184052.png]]
+- we create a sucessfully payload that we can transfer to the target
+![[Pasted image 20230322184111.png]]
+- create on the Linux machine the python server and setup the multi handler
+![[Pasted image 20230322184145.png]]
+![[Pasted image 20230322184200.png]]
+- on the windows system we can see on t
