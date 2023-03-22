@@ -621,4 +621,15 @@ check the temp directory and navigate into it and check it
 - create on the Linux machine the python server and setup the multi handler
 ![[Pasted image 20230322184145.png]]
 ![[Pasted image 20230322184200.png]]
-- on the windows system we can see on t
+- on the windows system we can see on the server the payload
+![[Pasted image 20230322184216.png]]
+- we download it - one mistake that we did is that we did not specify the -k flag to maintain the normal functionality of the winrar executable
+![[Pasted image 20230322184222.png]]
+![[Pasted image 20230322184306.png]]
+![[Pasted image 20230322184351.png]]
+![[Pasted image 20230322184335.png]]
+- now after access - once establishing access to a system through a client side attack - do the following to migrate the payload into another process
+![[Pasted image 20230322184511.png]]
+- let's create another payload with the -k flag to maintain the normal function of the winrar executable
+![[Pasted image 20230322184640.png]]
+- now it will fail because this technique is not us
