@@ -546,4 +546,7 @@ check the temp directory and navigate into it and check it
 - to generate a specific payload 
 ![[Pasted image 20230322160129.png]]
 ![[Pasted image 20230322160147.png]]
-- now let's generate a 64bits payloa
+- now let's generate a 64bit payload and we also modify it
+![[Pasted image 20230322160317.png]]
+- list of formats you can create your payload to
+![[Pasted image 20230322160449.png]]
