@@ -550,5 +550,17 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322160317.png]]
 - list of formats you can create your payload to
 ![[Pasted image 20230322160449.png]]
-- generate a staged meterpreter payload for Linux - we don't need to provide any extension because the binary can directly b
+- generate a staged meterpreter payload for Linux - we don't need to provide any extension because the binary can directly be executed 
+	- the most important information when we create a payload is the type of the payload and within it make sure you specify the target system and maybe the architecture also
 ![[Pasted image 20230322161229.png]]
+![[Pasted image 20230322161319.png]]
+- now we can execute it - but we need to create a listener first because otherwise nothing will happen
+![[Pasted image 20230322161408.png]]
+- to transfering them on the target we will send first the Windows payload
+- set a simple server withing the directory
+![[Pasted image 20230322161537.png]]
+![[Pasted image 20230322161551.png]]
+- now let's create the handler from the target system - so open a new tab with msf
+![[Pasted image 20230322161707.png]]
+- we need to configure the default payload
+![[Pasted image 20230322161738.png]]
