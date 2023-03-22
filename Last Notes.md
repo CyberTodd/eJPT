@@ -507,7 +507,22 @@ check the temp directory and navigate into it and check it
 - try to identify now some strings within the binary
 ![[Pasted image 20230322150936.png]]
 - we can see that it's calling an external binary - what if we modify greetings binary to execute a command like bash? - because the welcome has privileged executions will also execute greetings even if we can't - remove now the greetings binary and we can create another one
+	- is a bash binary within greetings
 ![[Pasted image 20230322151114.png]]
 - now if we try again to execute welcome we see that it will execute greetings - and also we have root privileges also
 ![[Pasted image 20230322151153.png]]
 
+- Dumping Linux Password Hashes
+![[Pasted image 20230322151414.png]]
+- we see on our target the service and also we check for that vulnerability
+![[Pasted image 20230322151620.png]]
+- we see that we have a msf module
+![[Pasted image 20230322151637.png]]
+![[Pasted image 20230322151642.png]]
+![[Pasted image 20230322151657.png]]
+- obtain a bash session
+![[Pasted image 20230322151707.png]]
+![[Pasted image 20230322151722.png]]
+- upgrade the session to a meterpreter session
+- even if we get an error check sessions
+![[Pasted image 20230322151738.png]]
