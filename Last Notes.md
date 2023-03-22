@@ -632,4 +632,14 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322184511.png]]
 - let's create another payload with the -k flag to maintain the normal function of the winrar executable
 ![[Pasted image 20230322184640.png]]
-- now it will fail because this technique is not us
+- now it will fail because this technique is not used anymore because the anti-virus detects it - you can test with other executables to see it you succeed
+![[Pasted image 20230322184723.png]]
+
+- if you want to download with a utility that windows has by default use certutil to download files form a server
+![[Pasted image 20230322185039.png]]
+![[Pasted image 20230322185055.png]]
+![[Pasted image 20230322185100.png]]
+![[Pasted image 20230322185112.png]]
+![[Pasted image 20230322185120.png]]
+
+- upgrade command shells to meterpreter shells
