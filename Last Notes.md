@@ -504,3 +504,10 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322150340.png]]
 - we can use the file command to check welcome file type
 ![[Pasted image 20230322150415.png]]
+- try to identify now some strings within the binary
+![[Pasted image 20230322150936.png]]
+- we can see that it's calling an external binary - what if we modify greetings binary to execute a command like bash? - because the welcome has privileged executions will also execute greetings even if we can't - remove now the greetings binary and we can create another one
+![[Pasted image 20230322151114.png]]
+- now if we try again to execute welcome we see that it will execute greetings - and also we have root privileges also
+![[Pasted image 20230322151153.png]]
+
