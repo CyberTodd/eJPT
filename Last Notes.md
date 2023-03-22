@@ -583,4 +583,11 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322162123.png]]
 ![[Pasted image 20230322162137.png]]
 
-- encoding payloads with msfvenom
+- Encoding payloads with msfvenom
+- get a list of encoders - based on system and system architecture
+![[Pasted image 20230322182245.png]]
+- to generate a Windows then Linux payloads and to encoded with shikata_ga_nai
+- windows payload and encoded
+![[Pasted image 20230322182446.png]]
+- in the output, after generation of the payload - you can see the iterations - the more iterations the higher the success rate to bypass the anti-virus 
+![[Pasted image 20230322182655.png]]
