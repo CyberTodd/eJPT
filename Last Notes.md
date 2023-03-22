@@ -498,5 +498,5 @@ check the temp directory and navigate into it and check it
 
 - Exploiting SUID Binaries
 - another lab with permissions in the system with a student account
-- we see 2 binaries greetings and welcome - we see that every user can execute them but we also can see the s permission under welcome binary
+- we see 2 binaries greetings and welcome - we see that every user can execute them but we also can see the s permission under welcome binary - that means that SUID permission is granted
 ![[Pasted image 20230322145727.png]]
