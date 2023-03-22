@@ -526,3 +526,14 @@ check the temp directory and navigate into it and check it
 - upgrade the session to a meterpreter session
 - even if we get an error check sessions
 ![[Pasted image 20230322151738.png]]
+![[Pasted image 20230322151759.png]]
+![[Pasted image 20230322151805.png]]
+![[Pasted image 20230322151813.png]]
+- display the content of the shadow file
+![[Pasted image 20230322151838.png]]
+- run hashdump module from msf
+![[Pasted image 20230322151929.png]]
+![[Pasted image 20230322151944.png]]
+
+---
+- Generating Payloads with msfvenom
