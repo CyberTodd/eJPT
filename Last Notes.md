@@ -467,3 +467,10 @@ check the temp directory and navigate into it and check it
 
 
 - Exploit Misconfigured Cron Jobs
+- we have access on a system as student
+![[Pasted image 20230322144537.png]]
+- identify cron jobs for our specific user
+![[Pasted image 20230322144632.png]]
+- inside the home/student directory we have a file - to demonstrate cron jobs - we can see that is owned by the root user and any other account on the system doe
+![[Pasted image 20230322144719.png]]
+![[Pasted image 20230322144723.png]]
