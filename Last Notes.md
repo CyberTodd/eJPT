@@ -536,4 +536,7 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322151944.png]]
 
 ---
-- Generating Payloads with msfvenom - 
+- Generating Payloads with msfvenom 
+- check the payloads that you can generate with msfvenom
+![[Pasted image 20230322153124.png]]
+- 
