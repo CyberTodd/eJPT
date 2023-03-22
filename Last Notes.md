@@ -649,3 +649,10 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322185620.png]]
 ![[Pasted image 20230322185629.png]]
 - put it in the background - now let's upgrade this session to meterpreter
+![[Pasted image 20230322185717.png]]
+![[Pasted image 20230322185730.png]]
+- also you can upgrade a shell session with the -u flag - it will use the same module as above but automated
+![[Pasted image 20230322185812.png]]
+![[Pasted image 20230322185831.png]]
+
+- Windows Post Exploitation Modules
