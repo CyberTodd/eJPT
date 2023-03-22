@@ -591,3 +591,16 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322182446.png]]
 - in the output, after generation of the payload - you can see the iterations - the more iterations the higher the success rate to bypass the anti-virus 
 ![[Pasted image 20230322182655.png]]
+![[Pasted image 20230322182718.png]]
+- below you can see the encodedx86 iterated 10 times
+![[Pasted image 20230322182848.png]]
+- now for a linux payload 
+![[Pasted image 20230322182916.png]]
+![[Pasted image 20230322182922.png]]
+![[Pasted image 20230322183048.png]]
+- let's now test the windows payload - open a server with the python module
+![[Pasted image 20230322183116.png]]
+- now on the windows workstation let's create the listener on our linux machine
+![[Pasted image 20230322183142.png]]
+- then on the windows system - access the python server and save the payload D
+![[Pasted image 20230322183159.png]]
