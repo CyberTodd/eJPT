@@ -500,3 +500,7 @@ check the temp directory and navigate into it and check it
 - another lab with permissions in the system with a student account
 - we see 2 binaries greetings and welcome - we see that every user can execute them but we also can see the s permission under welcome binary - that means that SUID permission is granted
 ![[Pasted image 20230322145727.png]]
+- we now try to execute the greetings binary but we have permission denied, we have access to welcome however
+![[Pasted image 20230322150340.png]]
+- we can use the file command to check welcome file type
+![[Pasted image 20230322150415.png]]
