@@ -483,6 +483,20 @@ check the temp directory and navigate into it and check it
 - check the permission of the shell scripts - we can see that is owned by the root acc - but under permission every acc has read, write and execute permissions
 ![[Pasted image 20230322145059.png]]
 - now we want to use this shell script with additional code to escalate our privs
-- now if we check the copy shell we can see that it uses a bash shell - it copies the message from home/student to tmp/mess
+- now if we check the copy shell we can see that it uses a bash shell - it copies the message from home/student to tmp/message - then it modifies the permissions of the message under the tmp directory
 ![[Pasted image 20230322145210.png]]
 ![[Pasted image 20230322145219.png]]
+- we don't have any text editor in the lab but we can also use something ingenious - we will use the printf command
+![[Pasted image 20230322145409.png]]
+- we cat it
+![[Pasted image 20230322145419.png]]
+- now if we wait a couple of minutes we can check the users that are part of the sudoers group
+	- the cron job was run and we can use the student account to run everything with root privs
+![[Pasted image 20230322145520.png]]
+- let's switch to the root user
+![[Pasted image 20230322145620.png]]
+
+- Exploiting SUID Binaries
+- another lab with permissions in the system with a student account
+- we see 2 binaries greetings and welcome - we see that every user can execute them but we also can see the s permission under welcome binary
+![[Pasted image 20230322145727.png]]
