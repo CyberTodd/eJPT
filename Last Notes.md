@@ -643,3 +643,9 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322185120.png]]
 
 - upgrade command shells to meterpreter shells
+- we gain access to a typical command shell
+![[Pasted image 20230322185603.png]]
+- we can upgrade it to a bash session
+![[Pasted image 20230322185620.png]]
+![[Pasted image 20230322185629.png]]
+- put it in the background - now let's upgrade this session to meterpreter
