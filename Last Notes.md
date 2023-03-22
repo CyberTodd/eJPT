@@ -471,6 +471,18 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322144537.png]]
 - identify cron jobs for our specific user
 ![[Pasted image 20230322144632.png]]
-- inside the home/student directory we have a file - to demonstrate cron jobs - we can see that is owned by the root user and any other account on the system doe
+- inside the home/student directory we have a file - to demonstrate cron jobs - we can see that is owned by the root user and any other account on the system does not have permissions to change or execute it
 ![[Pasted image 20230322144719.png]]
 ![[Pasted image 20230322144723.png]]
+- we know the directory where is stored and we know the file name - let's use the utility grep to look for all occurences of the path of the file - navigate to root of the system
+![[Pasted image 20230322144916.png]]
+- we find a shell script copy under usr/local/share - and the occurence of the string tells that the file is copied in tmp/message
+![[Pasted image 20230322144931.png]]
+- try to cat the message under tmp
+![[Pasted image 20230322145032.png]]
+- check the permission of the shell scripts - we can see that is owned by the root acc - but under permission every acc has read, write and execute permissions
+![[Pasted image 20230322145059.png]]
+- now we want to use this shell script with additional code to escalate our privs
+- now if we check the copy shell we can see that it uses a bash shell - it copies the message from home/student to tmp/mess
+![[Pasted image 20230322145210.png]]
+![[Pasted image 20230322145219.png]]
