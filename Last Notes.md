@@ -765,4 +765,12 @@ check the temp directory and navigate into it and check it
 - set payload to 32bit reverse_tcp
 ![[Pasted image 20230323182212.png]]
 ![[Pasted image 20230323182218.png]]
-- now if you terminate the session
+- now if you terminate all the sessions - you can use the multi handler to gain access again
+![[Pasted image 20230323182337.png]]
+- set the payload to the one specified in the persistence module and every other setting - match the persistence settings - it will run even cross restarts
+![[Pasted image 20230323182414.png]]
+![[Pasted image 20230323182432.png]]
+
+- Enabling EDP
+- check the target with nmap through msf 
+
