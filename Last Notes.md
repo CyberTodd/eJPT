@@ -670,4 +670,16 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323161106.png]]
 - you can also screenshot the current desktop
 ![[Pasted image 20230323161250.png]]
-
+- let's do some local enumeration now
+- let's try to escalate our privs now with the following command
+![[Pasted image 20230323161403.png]]
+- dump hashes - you don't have access to the db
+![[Pasted image 20230323161416.png]]
+- list drives on the system
+![[Pasted image 20230323161443.png]]
+- list the process tree
+![[Pasted image 20230323161541.png]]
+- to migrate for example to explorer you can use either the process name or it's id
+![[Pasted image 20230323161614.png]]
+![[Pasted image 20230323161619.png]]
+- put the session in the background and now let's run some post-exploitation modules - if you want to change the architecture of the meterpreter you can use this module to automate 
