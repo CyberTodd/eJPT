@@ -688,4 +688,9 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323161929.png]]
 - it will fail because we already migrated to explorer
 ![[Pasted image 20230323162009.png]]
-- 
+- the windows privs module - will enumerate the privs of the user we have access to
+![[Pasted image 20230323162525.png]]
+![[Pasted image 20230323162537.png]]
+- enumerate users on the system - you can see if your activity has been noticed or if someone is watching you
+![[Pasted image 20230323162738.png]]
+
