@@ -721,3 +721,22 @@ check the temp directory and navigate into it and check it
 - we will explore rejetto now to gain access to the target
 ![[Pasted image 20230323180313.png]]
 ![[Pasted image 20230323180322.png]]
+- in order to bypass uac or to elevate privs we have to have a meterpreter 64bit
+![[Pasted image 20230323180356.png]]
+![[Pasted image 20230323180417.png]]
+![[Pasted image 20230323180428.png]]
+- now you can try to use the getsystem command to try to elevate privs
+![[Pasted image 20230323180454.png]]
+- lets get an ideea of the user privs
+![[Pasted image 20230323180526.png]]
+- check if the user is part of the user group - open a shell session
+![[Pasted image 20230323180604.png]]
+- we are admin - but we also have the real administrator account
+![[Pasted image 20230323180610.png]]
+- admin is part of the administrator group meaning that we can bypass uac
+![[Pasted image 20230323180637.png]]
+- now p
+
+
+
+- Windows Privilege Escalation: Token Impersonation With Incognito
