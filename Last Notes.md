@@ -703,4 +703,10 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323172031.png]]
 - you can check what anti-virus solution are installed and what folders are not scanned by them
 ![[Pasted image 20230323172259.png]]
-
+![[Pasted image 20230323172340.png]]
+- we see that it runs in cloud
+![[Pasted image 20230323172420.png]]
+- enum patches - you can specify your own KBs
+![[Pasted image 20230323172524.png]]
+- another way to see hotfixes and IDs
+![[Pasted image 20230323172804.png]]
