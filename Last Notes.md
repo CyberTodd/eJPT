@@ -696,4 +696,7 @@ check the temp directory and navigate into it and check it
 - you can also check if your target system is a virtual machine or not
 ![[Pasted image 20230323162925.png]]
 ![[Pasted image 20230323162939.png]]
+- now let's enumerate installed programs on the target 
+![[Pasted image 20230323171629.png]]
+
 
