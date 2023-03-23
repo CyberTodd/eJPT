@@ -657,3 +657,17 @@ check the temp directory and navigate into it and check it
 
 - Windows Post Exploitation Modules
 - we have a machine with root access - now let's start msf and postgresql 
+![[Pasted image 20230323160825.png]]
+- create a workspace and input the global rhost 
+![[Pasted image 20230323160844.png]]
+- perform a nmap scan within msf console and also automatically saving the results in a file
+![[Pasted image 20230323160928.png]]
+- we see httpfileserver 2.3 - then launch rejetto
+![[Pasted image 20230323161012.png]]
+- we have a meterpreter session - now let's explore some commands - OS, pc name, architecture, etc
+![[Pasted image 20230323161033.png]]
+- you can also use the help command to see multiple commands available because now we have more options being in a meterpreter session
+![[Pasted image 20230323161106.png]]
+- you can also screenshot the current desktop
+![[Pasted image 20230323161250.png]]
+
