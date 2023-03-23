@@ -718,4 +718,6 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323173051.png]]
 
 - Windows Privilege Escalation: Bypassing UAC
-- 
+- we will explore rejetto now to gain access to the target
+![[Pasted image 20230323180313.png]]
+![[Pasted image 20230323180322.png]]
