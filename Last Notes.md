@@ -710,3 +710,12 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323172524.png]]
 - another way to see hotfixes and IDs
 ![[Pasted image 20230323172804.png]]
+- enum_shares
+![[Pasted image 20230323172850.png]]
+- check if rdp is enabled - get a gui instead of terminal
+![[Pasted image 20230323173022.png]]
+- or enable rdp on the target
+![[Pasted image 20230323173051.png]]
+
+- Windows Privilege Escalation: Bypassing UAC
+- 
