@@ -682,4 +682,10 @@ check the temp directory and navigate into it and check it
 - to migrate for example to explorer you can use either the process name or it's id
 ![[Pasted image 20230323161614.png]]
 ![[Pasted image 20230323161619.png]]
-- put the session in the background and now let's run some post-exploitation modules - if you want to change the architecture of the meterpreter you can use this module to automate 
+- put the session in the background and now let's run some post-exploitation modules - if you want to change the architecture of the meterpreter you can use this module to automate this process
+![[Pasted image 20230323161916.png]]
+- the only required field is the session
+![[Pasted image 20230323161929.png]]
+- it will fail because we already migrated to explorer
+![[Pasted image 20230323162009.png]]
+- 
