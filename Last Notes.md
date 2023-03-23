@@ -698,5 +698,9 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323162939.png]]
 - now let's enumerate installed programs on the target 
 ![[Pasted image 20230323171629.png]]
-
+![[Pasted image 20230323171958.png]]
+- if you started the postgresql and created a workspace - all the data is stored in msf db - you can access the data stored in there by the loot command
+![[Pasted image 20230323172031.png]]
+- you can check what anti-virus solution are installed and what folders are not scanned by them
+![[Pasted image 20230323172259.png]]
 
