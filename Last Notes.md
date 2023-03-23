@@ -693,4 +693,7 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323162537.png]]
 - enumerate users on the system - you can see if your activity has been noticed or if someone is watching you
 ![[Pasted image 20230323162738.png]]
+- you can also check if your target system is a virtual machine or not
+![[Pasted image 20230323162925.png]]
+![[Pasted image 20230323162939.png]]
 
