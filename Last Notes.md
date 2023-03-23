@@ -756,3 +756,13 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323181657.png]]
 
 - Establish Persistence On Windows
+- again - the target is vulnerable to rejetto msf module - connect to it to gain a meterpreter session
+![[Pasted image 20230323181925.png]]
+- search for a platform persistence module in msf
+![[Pasted image 20230323182100.png]]
+![[Pasted image 20230323182128.png]]
+![[Pasted image 20230323182145.png]]
+- set payload to 32bit reverse_tcp
+![[Pasted image 20230323182212.png]]
+![[Pasted image 20230323182218.png]]
+- now if you terminate the session
