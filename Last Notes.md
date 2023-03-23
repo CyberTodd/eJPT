@@ -735,8 +735,17 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323180610.png]]
 - admin is part of the administrator group meaning that we can bypass uac
 ![[Pasted image 20230323180637.png]]
-- now p
-
+- now put the session in the background and use the bypass_injection module - we need to change meterpreter to 64 - switch the payload
+![[Pasted image 20230323180909.png]]
+![[Pasted image 20230323180934.png]]
+- we have to set target option to x64
+![[Pasted image 20230323181003.png]]
+![[Pasted image 20230323181053.png]]
+![[Pasted image 20230323181058.png]]
+![[Pasted image 20230323181112.png]]
+- now we can use the getsystem to elevate our privs because uac is disabled
+![[Pasted image 20230323181148.png]]
+![[Pasted image 20230323181217.png]]
 
 
 - Windows Privilege Escalation: Token Impersonation With Incognito
