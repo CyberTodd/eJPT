@@ -748,4 +748,11 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323181217.png]]
 
 
-- Windows Privilege Escalation: Token Impersonation With Incognito
+- Pass-the-Hash with psexec - you can use psexec module that requires authentication and use the hashes to log in - change payload meterpreter to x64
+![[Pasted image 20230323181610.png]]
+![[Pasted image 20230323181625.png]]
+- for smbpass you can paste the clear text pass or the hash
+![[Pasted image 20230323181636.png]]
+![[Pasted image 20230323181657.png]]
+
+- Establish Persistence On Windows
