@@ -656,3 +656,4 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230322185831.png]]
 
 - Windows Post Exploitation Modules
+- we have a machine with root access - now let's start msf and postgresql 
