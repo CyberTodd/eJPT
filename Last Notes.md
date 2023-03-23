@@ -772,5 +772,20 @@ check the temp directory and navigate into it and check it
 ![[Pasted image 20230323182432.png]]
 
 - Enabling EDP
-- check the target with nmap through msf 
+- check the target with nmap through msf - we have badblue on port 80 which we will use to gain access to the target
+![[Pasted image 20230323182909.png]]
+![[Pasted image 20230323182914.png]]
+- now we enable rdp which was not seen under the nmap scan
+![[Pasted image 20230323182932.png]]
+- looks like it's enabled - let's check it with nmap - only the RDP port status
+![[Pasted image 20230323183003.png]]
+![[Pasted image 20230323183032.png]]
+- then in meterpreter session open a shell and list the users on the system
+![[Pasted image 20230323183117.png]]
+- you can now create another user on the system but we will change the administrator password
+![[Pasted image 20230323183159.png]]
+- terminate session and authenticate to rdp with xfreerdp
+![[Pasted image 20230323183229.png]]![[Pasted image 20230323183235.png]]
 
+- Windows Keylogging
+- 
